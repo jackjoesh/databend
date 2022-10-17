@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-17T12:19:40.456Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="yIQvDD8IMzxSrNz0WNg8" version="20.3.3" type="github" pages="2">
+<mxfile host="app.diagrams.net" modified="2022-10-17T12:22:44.147Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="9cEPJz2FpFjm2lCz8oB5" version="20.3.3" type="github" pages="2">
   <diagram id="v0VoCATMuZHcXfQ0b3i3" name="第 1 页">
     <mxGraphModel dx="850" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -297,9 +297,9 @@
             <mxPoint x="205" y="723" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2tE78hSKC4pJXs-_ZYa-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.819;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gWFYIP7W994Z3gO-5k4k-31">
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-32" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.433;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="gWFYIP7W994Z3gO-5k4k-31" target="f2tE78hSKC4pJXs-_ZYa-44">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="686.06" y="703" as="targetPoint" />
+            <mxPoint x="686" y="660" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f2tE78hSKC4pJXs-_ZYa-33" value="query data by userid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f2tE78hSKC4pJXs-_ZYa-32">
@@ -324,6 +324,20 @@
         </mxCell>
         <mxCell id="f2tE78hSKC4pJXs-_ZYa-43" value="noden" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="641" y="715" width="104" height="55" as="geometry" />
+        </mxCell>
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-44" value="export as mysql protocol" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="608" y="680" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-47" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.826;exitY=1.011;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="gWFYIP7W994Z3gO-5k4k-37">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="850" as="sourcePoint" />
+            <mxPoint x="691" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-48" value="parallel get datas from s3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="f2tE78hSKC4pJXs-_ZYa-47">
+          <mxGeometry x="-0.347" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
