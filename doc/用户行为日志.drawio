@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-10-24T16:45:35.415Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="_fqc_VpaP_oQqfQ04D2k" version="20.4.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-31T10:15:07.872Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="3tBc6M3IkoMgRnFhHWc1" version="20.5.1" type="github" pages="3">
   <diagram id="v0VoCATMuZHcXfQ0b3i3" name="第 1 页">
-    <mxGraphModel dx="850" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -137,7 +137,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="2kgRpoBIMPyvj5__OIcH" name="第 2 页">
-    <mxGraphModel dx="850" dy="507" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -147,7 +147,7 @@
         <mxCell id="gWFYIP7W994Z3gO-5k4k-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="100" y="868" width="210" height="132" as="geometry" />
         </mxCell>
-        <mxCell id="gWFYIP7W994Z3gO-5k4k-5" value="temporary tsv file" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+        <mxCell id="gWFYIP7W994Z3gO-5k4k-5" value="S3&amp;nbsp; temp data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="393" y="491" width="80" height="40" as="geometry" />
         </mxCell>
         <mxCell id="gWFYIP7W994Z3gO-5k4k-12" value="S3" style="text;html=1;resizable=0;autosize=1;align=center;verticalAlign=middle;points=[];fillColor=#ffe6cc;strokeColor=#d79b00;rounded=0;fontSize=14;" parent="1" vertex="1">
@@ -156,7 +156,7 @@
         <mxCell id="f2tE78hSKC4pJXs-_ZYa-18" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gWFYIP7W994Z3gO-5k4k-20" target="gWFYIP7W994Z3gO-5k4k-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="f2tE78hSKC4pJXs-_ZYa-28" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;Write a file every n lines,&amp;nbsp;&lt;br&gt;n &amp;gt; 50000.&amp;nbsp; &lt;br&gt;And file is ranged by&lt;br&gt;userid&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2tE78hSKC4pJXs-_ZYa-18" vertex="1" connectable="0">
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-28" value="&lt;span style=&quot;font-size: 12px; background-color: rgb(248, 249, 250);&quot;&gt;write to s3&lt;br&gt;&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2tE78hSKC4pJXs-_ZYa-18" vertex="1" connectable="0">
           <mxGeometry x="0.3837" y="1" relative="1" as="geometry">
             <mxPoint x="-40" as="offset" />
           </mxGeometry>
@@ -269,12 +269,12 @@
             <mxPoint x="180.6400000000001" y="703" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2tE78hSKC4pJXs-_ZYa-24" value="insert file data into corrsponding table by userid" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2tE78hSKC4pJXs-_ZYa-23" vertex="1" connectable="0">
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-24" value="copy file data into corrsponding table&amp;nbsp;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="f2tE78hSKC4pJXs-_ZYa-23" vertex="1" connectable="0">
           <mxGeometry x="-0.2272" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="f2tE78hSKC4pJXs-_ZYa-21" value="stream load job" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
+        <mxCell id="f2tE78hSKC4pJXs-_ZYa-21" value="sync script" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" parent="1" vertex="1">
           <mxGeometry x="141" y="579" width="79" height="70" as="geometry" />
         </mxCell>
         <mxCell id="f2tE78hSKC4pJXs-_ZYa-29" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
