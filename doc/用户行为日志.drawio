@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-10-31T12:47:21.512Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="j6FRGCbcaNhjOMf_Fzo1" version="20.5.1" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-10-31T12:48:47.834Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="ytnaBVMlOQUO9v2Mxsx8" version="20.5.1" type="github" pages="3">
   <diagram id="v0VoCATMuZHcXfQ0b3i3" name="第 1 页">
     <mxGraphModel dx="850" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -566,7 +566,7 @@
         <mxCell id="5z3sFFW1q6bPXZEHKCRx-55" value="reuse shardingjdbc logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="621.5" y="520" width="138.5" height="17" as="geometry" />
         </mxCell>
-        <mxCell id="pPOFsrzCT83kF8OhZnKp-1" value="admin" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="pPOFsrzCT83kF8OhZnKp-1" value="admin system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="630" y="391" width="110" height="40" as="geometry" />
         </mxCell>
       </root>
