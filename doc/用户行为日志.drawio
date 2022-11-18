@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-11-18T05:29:14.688Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="4LRsGCbcJJwOPKoL38kc" version="20.5.1" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2022-11-18T07:32:43.696Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.67 Safari/537.36" etag="dVnb_MiaPZRcDaQXiQ6s" version="20.5.1" type="github" pages="4">
   <diagram id="v0VoCATMuZHcXfQ0b3i3" name="第 1 页">
     <mxGraphModel dx="850" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -560,7 +560,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="WHYNNlINevXKKarcASD0" name="第 4 页">
-    <mxGraphModel dx="850" dy="503" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="850" dy="444" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -586,7 +586,7 @@
         <mxCell id="5uANn5u_ePMT2ESvAszj-6" value="flink" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="126" y="491" width="110" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="5uANn5u_ePMT2ESvAszj-7" value="streamer-web" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+        <mxCell id="5uANn5u_ePMT2ESvAszj-7" value="grafana" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
           <mxGeometry x="600" y="529" width="170" height="39" as="geometry" />
         </mxCell>
         <mxCell id="5uANn5u_ePMT2ESvAszj-8" value="" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" target="5uANn5u_ePMT2ESvAszj-7">
@@ -741,12 +741,6 @@
           <mxGeometry x="-0.347" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="5uANn5u_ePMT2ESvAszj-50" value="reuse shardingjdbc logic" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="621.5" y="558" width="138.5" height="17" as="geometry" />
-        </mxCell>
-        <mxCell id="5uANn5u_ePMT2ESvAszj-51" value="admin system" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="630" y="429" width="110" height="40" as="geometry" />
         </mxCell>
         <mxCell id="5uANn5u_ePMT2ESvAszj-52" value="S3&amp;nbsp; temp data" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="330" y="594" width="80" height="40" as="geometry" />
