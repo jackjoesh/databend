@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-01-02T07:12:53.192Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="7iAD6SKX23E7FUlBxB49" version="22.1.16" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-02T07:42:39.497Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="R7lPN9r1rPDwUEdo1NxO" version="22.1.16" type="github">
   <diagram name="第 1 页" id="-bYgTaxVNJsQ00GNJId1">
     <mxGraphModel dx="858" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -47,9 +47,9 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XOAkBOD9G0rYFTy8uTz9-7" value="业务rocksdb" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="130" y="390" width="60" height="60" as="geometry" />
+          <mxGeometry x="130" y="360" width="60" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="XOAkBOD9G0rYFTy8uTz9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XOAkBOD9G0rYFTy8uTz9-8">
+        <mxCell id="XOAkBOD9G0rYFTy8uTz9-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="XOAkBOD9G0rYFTy8uTz9-7">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="490" as="targetPoint" />
           </mxGeometry>
@@ -60,18 +60,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="XOAkBOD9G0rYFTy8uTz9-8" value="raft 本身存储?" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="250" y="390" width="60" height="60" as="geometry" />
+          <mxGeometry x="250" y="360" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="XOAkBOD9G0rYFTy8uTz9-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="XOAkBOD9G0rYFTy8uTz9-2" target="XOAkBOD9G0rYFTy8uTz9-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="XOAkBOD9G0rYFTy8uTz9-11" value="l2.&amp;nbsp; &amp;nbsp; og" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XOAkBOD9G0rYFTy8uTz9-10">
+        <mxCell id="XOAkBOD9G0rYFTy8uTz9-11" value="l2.&amp;nbsp; &amp;nbsp; log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="XOAkBOD9G0rYFTy8uTz9-10">
           <mxGeometry x="-0.04" y="4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="XOAkBOD9G0rYFTy8uTz9-14" value="打snapshot" style="whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="350" y="490" width="80" height="80" as="geometry" />
+          <mxGeometry x="350" y="480" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="XOAkBOD9G0rYFTy8uTz9-16" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=37.5;entryPerimeter=0;" edge="1" parent="1" target="XOAkBOD9G0rYFTy8uTz9-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
