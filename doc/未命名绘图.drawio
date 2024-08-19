@@ -1,9 +1,30 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="tgMQHVBDHuroJmxmnegw">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-8" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=0;" edge="1" parent="1" source="X7fMvcYtnIwSlndWAkHu-1" target="X7fMvcYtnIwSlndWAkHu-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-1" value="Peer Discovery" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="93" y="115" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-2" value="Connection Manager" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="193" y="245" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-3" value="Peers" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="43" y="245" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-7" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.617;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;curved=0;" edge="1" parent="1" source="X7fMvcYtnIwSlndWAkHu-1" target="X7fMvcYtnIwSlndWAkHu-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-9" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" target="X7fMvcYtnIwSlndWAkHu-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="153" y="205" as="sourcePoint" />
+            <mxPoint x="173" y="225" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
