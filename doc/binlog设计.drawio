@@ -186,6 +186,20 @@
         <mxCell id="X7fMvcYtnIwSlndWAkHu-63" value="write wal log" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="392" y="600" width="220" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.317;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M2bukFVJOcPTOaZUWw6n-1" target="M2bukFVJOcPTOaZUWw6n-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="1140" y="390" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1190" y="510" />
+              <mxPoint x="1138" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-17" value="把binlog数据解析业务数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-16">
+          <mxGeometry x="0.0713" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="M2bukFVJOcPTOaZUWw6n-1" value="parser service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="1100" y="555" width="120" height="60" as="geometry" />
         </mxCell>
@@ -218,7 +232,7 @@
             <mxPoint x="1020" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="biFFm7S5w4ii-SgIbjmA-12" value="通过消息把发送binlog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-7">
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-12" value="通过消息发送binlog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-7">
           <mxGeometry x="-0.2827" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
