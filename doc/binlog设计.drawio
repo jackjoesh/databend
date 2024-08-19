@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="tgMQHVBDHuroJmxmnegw">
-    <mxGraphModel dx="1242" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+    <mxGraphModel dx="1242" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -186,8 +186,35 @@
         <mxCell id="X7fMvcYtnIwSlndWAkHu-63" value="write wal log" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" parent="1" vertex="1">
           <mxGeometry x="392" y="600" width="220" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="M2bukFVJOcPTOaZUWw6n-1" value="Storage Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="452" y="519" width="120" height="60" as="geometry" />
+        <mxCell id="M2bukFVJOcPTOaZUWw6n-1" value="parser service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
+          <mxGeometry x="1100" y="555" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-1" value="business service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1420" y="700" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-2" value="Databend" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="555" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-3" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://ebpf.io/static/logo-black-98b7a1413b4a74ed961d292cf83da82e.svg;" vertex="1" parent="1">
+          <mxGeometry x="810" y="566" width="106" height="37" as="geometry" />
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-6" value="" style="endArrow=classic;html=1;rounded=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="biFFm7S5w4ii-SgIbjmA-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="810" y="583" as="sourcePoint" />
+            <mxPoint x="500" y="583" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="biFFm7S5w4ii-SgIbjmA-3" target="M2bukFVJOcPTOaZUWw6n-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="970" y="570" as="sourcePoint" />
+            <mxPoint x="1020" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-8" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;dashed=1;" edge="1" parent="1" source="M2bukFVJOcPTOaZUWw6n-1" target="biFFm7S5w4ii-SgIbjmA-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="1220" y="590" as="sourcePoint" />
+            <mxPoint x="1270" y="540" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
