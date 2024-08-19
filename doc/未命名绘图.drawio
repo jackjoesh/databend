@@ -61,6 +61,12 @@
             <mxPoint x="262.96000000000004" y="297.98" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-27" value="Mempool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-28" value="Wallet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="295" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
