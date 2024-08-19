@@ -183,6 +183,9 @@
         <mxCell id="X7fMvcYtnIwSlndWAkHu-62" value="rocksdb/leveldb" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" vertex="1" parent="1">
           <mxGeometry x="630" y="650" width="86" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-63" value="write wal log" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="392" y="600" width="220" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
