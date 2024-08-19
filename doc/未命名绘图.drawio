@@ -55,6 +55,12 @@
         <mxCell id="X7fMvcYtnIwSlndWAkHu-16" value="Blocks" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.document2;whiteSpace=wrap;size=0.25;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="310" y="363" width="90" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-26" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.514;entryY=0.883;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="263" y="330" as="sourcePoint" />
+            <mxPoint x="262.96000000000004" y="297.98" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
