@@ -67,7 +67,7 @@
         <mxCell id="X7fMvcYtnIwSlndWAkHu-27" value="Mempool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="111" y="509" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="X7fMvcYtnIwSlndWAkHu-28" value="Validatioin Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="X7fMvcYtnIwSlndWAkHu-28" value="Validation Engine" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="300" y="509" width="89" height="60" as="geometry" />
         </mxCell>
         <mxCell id="X7fMvcYtnIwSlndWAkHu-29" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.544;entryY=0.817;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Tahoma;" edge="1" parent="1" source="X7fMvcYtnIwSlndWAkHu-27" target="X7fMvcYtnIwSlndWAkHu-15">
