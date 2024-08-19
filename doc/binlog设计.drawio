@@ -243,6 +243,11 @@
             <mxPoint x="1270" y="540" as="targetPoint" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-19" value="发送消息到databend报存" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-8">
+          <mxGeometry x="-0.0435" y="2" relative="1" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
