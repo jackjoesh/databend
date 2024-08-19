@@ -1,9 +1,50 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36" version="24.7.7">
   <diagram name="第 1 页" id="8Rsi1BxzbCxbYHQihakk">
-    <mxGraphModel>
+    <mxGraphModel dx="1242" dy="749" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-9" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="370" y="100" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-1" value="MemTable" style="rounded=0;whiteSpace=wrap;html=1;shadow=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="400" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-4" value="wal log" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="670" y="160" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-5" value="sst" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="670" y="330" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-10" value="" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;fillColor=none;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="610" y="100" width="180" height="300" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-11" value="Memory" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="385" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-12" value="Persitent Store" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="625" y="110" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-13" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Tahoma;" edge="1" parent="1" target="rPHZvgQeCl-XJXK-31iK-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="240" as="sourcePoint" />
+            <mxPoint x="370" y="230" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-14" value="" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Tahoma;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="190" as="sourcePoint" />
+            <mxPoint x="670" y="189.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.333;entryY=0.867;entryDx=0;entryDy=0;entryPerimeter=0;fontFamily=Tahoma;" edge="1" parent="1" source="rPHZvgQeCl-XJXK-31iK-1" target="rPHZvgQeCl-XJXK-31iK-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rPHZvgQeCl-XJXK-31iK-16" value="flush" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontFamily=Tahoma;fontSize=17;" vertex="1" connectable="0" parent="rPHZvgQeCl-XJXK-31iK-15">
+          <mxGeometry x="-0.1394" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
