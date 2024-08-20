@@ -262,6 +262,19 @@
         <mxCell id="biFFm7S5w4ii-SgIbjmA-21" value="parser sdk" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="1370" y="710" width="60" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="biFFm7S5w4ii-SgIbjmA-21" target="biFFm7S5w4ii-SgIbjmA-21">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1415" y="810" />
+              <mxPoint x="1385" y="810" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-25" value="&lt;span style=&quot;font-family: Tahoma; font-size: 12px;&quot;&gt;转化为可读业务数据&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-24">
+          <mxGeometry x="0.0267" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
