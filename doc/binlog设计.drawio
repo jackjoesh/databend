@@ -221,7 +221,7 @@
             <mxPoint x="500" y="583" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="biFFm7S5w4ii-SgIbjmA-11" value="解析binlog数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-6">
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-11" value="解析二进制binlog数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-6">
           <mxGeometry x="0.0129" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -232,8 +232,8 @@
             <mxPoint x="1020" y="520" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="biFFm7S5w4ii-SgIbjmA-12" value="通过消息发送binlog" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;fontFamily=Tahoma;" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-7">
-          <mxGeometry x="-0.2827" y="3" relative="1" as="geometry">
+        <mxCell id="biFFm7S5w4ii-SgIbjmA-27" value="&lt;span style=&quot;font-family: Tahoma; font-size: 12px;&quot;&gt;通过消息发送二进制binlog&lt;/span&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="biFFm7S5w4ii-SgIbjmA-7">
+          <mxGeometry relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
