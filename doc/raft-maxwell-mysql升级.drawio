@@ -64,9 +64,6 @@
         <mxCell id="M2bukFVJOcPTOaZUWw6n-1" value="Maxwell(主节点)" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="754" y="251" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="biFFm7S5w4ii-SgIbjmA-1" value="business service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="1420" y="700" width="120" height="60" as="geometry" />
-        </mxCell>
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="biFFm7S5w4ii-SgIbjmA-2" target="4xmi2rFlR5mBMx5Cte2i-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -91,7 +88,12 @@
           <mxGeometry x="1240" y="325.5" width="110" height="61" as="geometry" />
         </mxCell>
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="M2bukFVJOcPTOaZUWw6n-1" target="biFFm7S5w4ii-SgIbjmA-2">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="814" y="530" />
+              <mxPoint x="685" y="530" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-7" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="4xmi2rFlR5mBMx5Cte2i-7">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -106,6 +108,11 @@
         </mxCell>
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4xmi2rFlR5mBMx5Cte2i-2" target="4xmi2rFlR5mBMx5Cte2i-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="5ok6LgYU1fo5nk2AM2nL-12" value="4 初始化连接最新的Mysql 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="5ok6LgYU1fo5nk2AM2nL-11">
+          <mxGeometry x="-0.2073" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
