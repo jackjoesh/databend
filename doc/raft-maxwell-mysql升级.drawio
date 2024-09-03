@@ -109,7 +109,7 @@
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="4xmi2rFlR5mBMx5Cte2i-2" target="4xmi2rFlR5mBMx5Cte2i-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5ok6LgYU1fo5nk2AM2nL-12" value="4 初始化连接最新的Mysql 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="5ok6LgYU1fo5nk2AM2nL-11">
+        <mxCell id="5ok6LgYU1fo5nk2AM2nL-12" value="4 初始化连接到最新的Mysql 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="5ok6LgYU1fo5nk2AM2nL-11">
           <mxGeometry x="-0.2073" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
