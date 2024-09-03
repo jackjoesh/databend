@@ -76,6 +76,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="5ok6LgYU1fo5nk2AM2nL-17" value="raft-maxwell集群" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Tahoma;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="604" y="201" width="140" height="39" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
