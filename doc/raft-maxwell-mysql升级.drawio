@@ -29,7 +29,7 @@
         <mxCell id="5ok6LgYU1fo5nk2AM2nL-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;dashed=1;" edge="1" parent="1" source="biFFm7S5w4ii-SgIbjmA-2" target="4xmi2rFlR5mBMx5Cte2i-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="5ok6LgYU1fo5nk2AM2nL-6" value="·1 实时复制数据到Mysql 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="5ok6LgYU1fo5nk2AM2nL-4">
+        <mxCell id="5ok6LgYU1fo5nk2AM2nL-6" value="·1 实时复制数据到新的Mysql 8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=13;" vertex="1" connectable="0" parent="5ok6LgYU1fo5nk2AM2nL-4">
           <mxGeometry x="-0.2083" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
