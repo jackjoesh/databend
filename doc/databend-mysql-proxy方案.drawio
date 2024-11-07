@@ -76,8 +76,8 @@
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-25" value="解析sql生成ast" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="476.75" y="460" width="276.5" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-28" value="根据每个子查询里有" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="371.69" y="510" width="490.62" height="30" as="geometry" />
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-28" value="路由逻辑：根据每个tablescan确认是否有日期查询，在3个月内路由mysql，否则路由databend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="347.84" y="510" width="538.31" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
