@@ -25,6 +25,11 @@
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YAg6dhcQ8J9fwgAFvM_q-9" target="YAg6dhcQ8J9fwgAFvM_q-14">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-20" value="起新协程" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="YAg6dhcQ8J9fwgAFvM_q-15">
+          <mxGeometry x="-0.2667" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-9" value="proxy2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="572" y="210" width="90" height="30" as="geometry" />
         </mxCell>
@@ -46,6 +51,9 @@
         </mxCell>
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-14" value="proxy2" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="572" y="300" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="270" width="780" height="380" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
