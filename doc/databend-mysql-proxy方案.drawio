@@ -58,8 +58,20 @@
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-14" value="mysql handshake 认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="533" y="300" width="168" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-21" value="获取sql数据，并解析操作类型，只支持select" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YAg6dhcQ8J9fwgAFvM_q-21" target="YAg6dhcQ8J9fwgAFvM_q-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-21" value="获取sql数据，并解析操作类型" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="478.75" y="360" width="276.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="YAg6dhcQ8J9fwgAFvM_q-23" target="YAg6dhcQ8J9fwgAFvM_q-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-23" value="执行sql断路(只支持select)，和并发控制" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="476.75" y="420" width="276.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-25" value="解析sql生成ast，" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="476.75" y="470" width="276.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
