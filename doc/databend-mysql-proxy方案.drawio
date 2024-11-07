@@ -52,11 +52,14 @@
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-19" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=none;dashed=1;" vertex="1" parent="1">
           <mxGeometry x="246" y="270" width="780" height="380" as="geometry" />
         </mxCell>
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="YAg6dhcQ8J9fwgAFvM_q-14" target="YAg6dhcQ8J9fwgAFvM_q-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-14" value="mysql handshake 认证" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="533" y="300" width="168" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-21" value="获取sql数据，并解析操作类型，只支持select" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="506" y="360" width="227" height="30" as="geometry" />
+          <mxGeometry x="478.75" y="360" width="276.5" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
