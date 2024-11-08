@@ -46,6 +46,14 @@
         <mxCell id="E23ufGga3pwI-AxH89j4-4" value="目标实例" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="766" y="310" width="150" height="50" as="geometry" />
         </mxCell>
+        <mxCell id="E23ufGga3pwI-AxH89j4-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="E23ufGga3pwI-AxH89j4-8" target="YAg6dhcQ8J9fwgAFvM_q-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="E23ufGga3pwI-AxH89j4-26" value="通知各节点状态" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="E23ufGga3pwI-AxH89j4-25">
+          <mxGeometry x="0.0576" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="E23ufGga3pwI-AxH89j4-8" value="Monitor Reconcile&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="490" y="480" width="141.25" height="50" as="geometry" />
         </mxCell>
