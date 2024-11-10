@@ -115,9 +115,6 @@
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-41" value="单proxy协程" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="237" y="300" width="143" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-43" value="config db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
-          <mxGeometry x="1250" y="260" width="60" height="80" as="geometry" />
-        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
