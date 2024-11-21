@@ -87,7 +87,7 @@
             <mxPoint x="617" y="570" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-28" value="路由逻辑：根据配置文件里配置的时间路由字段，在3个月内路由mysql，否则路由databend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
+        <mxCell id="YAg6dhcQ8J9fwgAFvM_q-28" value="路由逻辑：根据配置文件里配置的时间路由字段，判断在3个月内路由mysql，否则路由databend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="347.84999999999997" y="505" width="538.31" height="30" as="geometry" />
         </mxCell>
         <mxCell id="YAg6dhcQ8J9fwgAFvM_q-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="YAg6dhcQ8J9fwgAFvM_q-31" target="YAg6dhcQ8J9fwgAFvM_q-6" edge="1">
