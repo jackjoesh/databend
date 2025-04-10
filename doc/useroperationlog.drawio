@@ -43,17 +43,32 @@
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-16" target="VI-WyuSu2JnCiDjkK7D3-17">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-23" value="Query data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VI-WyuSu2JnCiDjkK7D3-18">
+          <mxGeometry x="-0.4667" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-16" value="Admin Search service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="773" y="210" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-17" target="VI-WyuSu2JnCiDjkK7D3-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-25" value="Query full data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VI-WyuSu2JnCiDjkK7D3-22">
+          <mxGeometry x="-0.4571" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-17" value="databend proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
           <mxGeometry x="773" y="320" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.02;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-17" target="VI-WyuSu2JnCiDjkK7D3-3">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-24" value="Query hot data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VI-WyuSu2JnCiDjkK7D3-20">
+          <mxGeometry x="-0.4351" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
