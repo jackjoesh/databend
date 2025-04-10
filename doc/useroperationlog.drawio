@@ -4,14 +4,31 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="VI-WyuSu2JnCiDjkK7D3-1" value="compute node1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="120" width="91.5" height="66" as="geometry" />
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-1" value="Mgs service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="250" y="120" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-2" value="Databend" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="1">
-          <mxGeometry x="390" y="230" width="80" height="110" as="geometry" />
+          <mxGeometry x="740" y="140" width="50" height="70" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-3" value="Aurora" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.data;" vertex="1" parent="1">
-          <mxGeometry x="590" y="230" width="80" height="110" as="geometry" />
+          <mxGeometry x="740" y="320" width="50" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-6" value="S3" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.s3;fillColor=#E05243;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="540" y="240" width="66" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-1" target="VI-WyuSu2JnCiDjkK7D3-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-11" value="Write parquet to S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="VI-WyuSu2JnCiDjkK7D3-7">
+          <mxGeometry x="-0.2909" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.52;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-6" target="VI-WyuSu2JnCiDjkK7D3-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.48;entryY=1.014;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-6" target="VI-WyuSu2JnCiDjkK7D3-3">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
