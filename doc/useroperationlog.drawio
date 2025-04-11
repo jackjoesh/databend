@@ -48,7 +48,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VI-WyuSu2JnCiDjkK7D3-16" value="Admin Search service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-16" value="Admin service" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;fontColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
           <mxGeometry x="773" y="210" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-17" target="VI-WyuSu2JnCiDjkK7D3-2">
