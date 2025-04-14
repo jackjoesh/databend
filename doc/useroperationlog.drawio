@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.2.9">
   <diagram name="第 1 页" id="wE9Yomr52eOOLZysqePJ">
-    <mxGraphModel dx="1236" dy="756" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1236" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="VI-WyuSu2JnCiDjkK7D3-17" value="databend proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;fontColor=#000000;strokeColor=default;" vertex="1" parent="1">
+        <mxCell id="VI-WyuSu2JnCiDjkK7D3-17" value="databend proxy" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#295EEF;strokeColor=#6c8ebf;fontColor=#FFFFFF;" vertex="1" parent="1">
           <mxGeometry x="843" y="350" width="130" height="50" as="geometry" />
         </mxCell>
         <mxCell id="VI-WyuSu2JnCiDjkK7D3-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.02;entryY=0.557;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="VI-WyuSu2JnCiDjkK7D3-17" target="VI-WyuSu2JnCiDjkK7D3-3">
