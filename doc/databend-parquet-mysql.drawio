@@ -144,7 +144,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-59" value="java-etl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="300" y="390" width="127.5" height="50" as="geometry" />
+          <mxGeometry x="310" y="390" width="127.5" height="50" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-7">
           <mxGeometry relative="1" as="geometry" />
