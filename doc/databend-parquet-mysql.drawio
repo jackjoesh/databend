@@ -89,7 +89,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-25" target="67hWNu62ocXWBOCx5b0s-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-62" value="6 Identify insert/update/delete operations in order&amp;nbsp;&lt;div&gt;and convert them into MySQL DML statements.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-61">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-62" value="6 send s3 path by rpc&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-61">
           <mxGeometry x="0.2265" y="1" relative="1" as="geometry">
             <mxPoint x="1" as="offset" />
           </mxGeometry>
