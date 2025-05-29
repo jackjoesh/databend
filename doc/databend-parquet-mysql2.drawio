@@ -35,19 +35,19 @@
         <mxCell id="PuLLqJ9Pljs3W14d_97O-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-7" target="67hWNu62ocXWBOCx5b0s-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PuLLqJ9Pljs3W14d_97O-8" value="6 Sync write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuLLqJ9Pljs3W14d_97O-2">
-          <mxGeometry x="-0.424" y="1" relative="1" as="geometry">
+        <mxCell id="PuLLqJ9Pljs3W14d_97O-11" value="6 Sync write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="PuLLqJ9Pljs3W14d_97O-2">
+          <mxGeometry x="-0.2889" y="-3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-7" value="S3" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=#ffffff;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.cloud;" parent="1" vertex="1">
-          <mxGeometry x="1080" y="330" width="95" height="50" as="geometry" />
+          <mxGeometry x="1080" y="330" width="60" height="50" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-9" value="Aurora" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="1300" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-10" value="Databend" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1370" y="315" width="80" height="80" as="geometry" />
+          <mxGeometry x="1320" y="315" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="67hWNu62ocXWBOCx5b0s-24" target="67hWNu62ocXWBOCx5b0s-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
