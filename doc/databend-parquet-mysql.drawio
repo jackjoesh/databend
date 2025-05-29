@@ -7,8 +7,8 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-1" target="67hWNu62ocXWBOCx5b0s-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-37" value="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-8">
-          <mxGeometry x="-0.3091" y="-3" relative="1" as="geometry">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-50" value="1 Bin log" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-8">
+          <mxGeometry x="-0.3273" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
