@@ -111,7 +111,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-26" target="67hWNu62ocXWBOCx5b0s-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-48" value="10 Async Write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-46">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-48" value="10 Async write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-46">
           <mxGeometry x="0.0163" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -133,6 +133,11 @@
               <mxPoint x="1150" y="360" />
               <mxPoint x="1150" y="740" />
             </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-58" value="Sync write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-55">
+          <mxGeometry x="-0.271" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
