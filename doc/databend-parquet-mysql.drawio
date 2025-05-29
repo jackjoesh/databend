@@ -34,6 +34,21 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-69" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="300" y="580" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="342" y="536" />
+              <mxPoint x="220" y="536" />
+              <mxPoint x="220" y="581" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-70" value="calculate sharding" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-69">
+          <mxGeometry x="-0.1557" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-3" value="Parquet-sync" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="310" y="556" width="127.5" height="50" as="geometry" />
         </mxCell>
