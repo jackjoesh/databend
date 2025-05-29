@@ -47,7 +47,7 @@
           <mxGeometry x="1300" y="440" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-10" value="Databend" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="1320" y="315" width="80" height="80" as="geometry" />
+          <mxGeometry x="1320" y="320" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="67hWNu62ocXWBOCx5b0s-24" target="67hWNu62ocXWBOCx5b0s-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
