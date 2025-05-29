@@ -29,7 +29,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-23" value="7 Update DML/DDL to mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-22">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-23" value="8 Update DML/DDL to mysql" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-22">
           <mxGeometry x="-0.0886" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -60,14 +60,6 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.016;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-7">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-31" value="6 Identify insert/update/delete operations in order&amp;nbsp;&lt;div&gt;and convert them into MySQL DML statements.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-28">
-          <mxGeometry x="0.0423" y="1" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-24" target="67hWNu62ocXWBOCx5b0s-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -75,6 +67,9 @@
           <mxGeometry x="-0.234" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-60" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-24" target="67hWNu62ocXWBOCx5b0s-59">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-24" value="Etl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="598" y="395" width="100" height="40" as="geometry" />
@@ -86,6 +81,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-61" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-25" target="67hWNu62ocXWBOCx5b0s-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-62" value="6 Identify insert/update/delete operations in order&amp;nbsp;&lt;div&gt;and convert them into MySQL DML statements.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-61">
+          <mxGeometry x="0.2265" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-25" value="Convert parquet" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="745" y="395" width="100" height="40" as="geometry" />
         </mxCell>
@@ -95,7 +98,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.511;entryY=1.02;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-44" value="8 Copy parquet to another directory for databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-43">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-44" value="9 Copy parquet to another directory for databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-43">
           <mxGeometry x="-0.2156" y="1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,7 +106,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1.005;entryY=0.74;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-26" target="67hWNu62ocXWBOCx5b0s-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-47" value="9 Real time scan S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-45">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-47" value="10 Real time scan S3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-45">
           <mxGeometry x="-0.5159" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -111,7 +114,7 @@
         <mxCell id="67hWNu62ocXWBOCx5b0s-46" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-26" target="67hWNu62ocXWBOCx5b0s-10">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="67hWNu62ocXWBOCx5b0s-48" value="10 Async write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-46">
+        <mxCell id="67hWNu62ocXWBOCx5b0s-48" value="11 Async write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-46">
           <mxGeometry x="0.0163" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -137,6 +140,17 @@
         </mxCell>
         <mxCell id="67hWNu62ocXWBOCx5b0s-58" value="Sync write to databend" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-55">
           <mxGeometry x="-0.271" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-59" value="java-etl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="300" y="390" width="127.5" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-64" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.026;entryY=0.72;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="67hWNu62ocXWBOCx5b0s-3" target="67hWNu62ocXWBOCx5b0s-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="67hWNu62ocXWBOCx5b0s-65" value="7 read s3" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="67hWNu62ocXWBOCx5b0s-64">
+          <mxGeometry x="-0.3529" y="-2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
