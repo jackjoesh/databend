@@ -128,6 +128,12 @@
             <mxPoint x="28" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="QNur_ulXSQtvdAvjum8d-5" value="Text" style="text;strokeColor=none;align=center;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="770" y="370" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="QNur_ulXSQtvdAvjum8d-6" value="CDC" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="557.5" y="300" width="60" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
