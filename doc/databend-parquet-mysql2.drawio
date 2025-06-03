@@ -52,7 +52,7 @@
         <mxCell id="PuLLqJ9Pljs3W14d_97O-28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d80073;strokeColor=#A50040;" parent="1" source="67hWNu62ocXWBOCx5b0s-24" target="PuLLqJ9Pljs3W14d_97O-26" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="PuLLqJ9Pljs3W14d_97O-29" value="4 invoke script for etl and&lt;div&gt;cache some datas&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="PuLLqJ9Pljs3W14d_97O-28" vertex="1" connectable="0">
+        <mxCell id="PuLLqJ9Pljs3W14d_97O-29" value="4 invoke script for etl and&lt;div&gt;cache some datas&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" parent="PuLLqJ9Pljs3W14d_97O-28" vertex="1" connectable="0">
           <mxGeometry x="-0.0169" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -119,6 +119,14 @@
         </mxCell>
         <mxCell id="PuLLqJ9Pljs3W14d_97O-30" value="business service" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="1160" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="QNur_ulXSQtvdAvjum8d-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="PuLLqJ9Pljs3W14d_97O-26" target="PuLLqJ9Pljs3W14d_97O-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="QNur_ulXSQtvdAvjum8d-4" value="Periodically update mapping data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];labelBackgroundColor=none;" vertex="1" connectable="0" parent="QNur_ulXSQtvdAvjum8d-3">
+          <mxGeometry x="-0.3083" y="4" relative="1" as="geometry">
+            <mxPoint x="28" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
