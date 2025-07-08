@@ -37,7 +37,7 @@
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-12" target="mJ7DN0NJPm78vNrxPyQj-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="mJ7DN0NJPm78vNrxPyQj-12" value="参数：库名，表名&lt;div&gt;连接databend数据库，添加添加databend_dt，is_databend_delete字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="mJ7DN0NJPm78vNrxPyQj-12" value="参数：库名，表名，用户名，密码&lt;div&gt;连接databend数据库，添加添加databend_dt，is_databend_delete字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="250" y="610" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-13" value="执行compact recluster final命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
