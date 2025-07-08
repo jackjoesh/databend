@@ -8,40 +8,40 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-1" value="参数：role的名称&lt;br&gt;aws申请role，和设置aws access key等环境变量" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="80" width="210" height="60" as="geometry" />
+          <mxGeometry x="555" y="80" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-3" target="mJ7DN0NJPm78vNrxPyQj-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-3" value="参数：集群名，库名，表名，bucket name&lt;br&gt;执行导出数据库快照命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="245" y="180" width="260" height="60" as="geometry" />
+          <mxGeometry x="530" y="180" width="260" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-4" target="mJ7DN0NJPm78vNrxPyQj-5">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-4" value="轮训检查快照是否导出完毕" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="270" y="290" width="210" height="60" as="geometry" />
+          <mxGeometry x="555" y="290" width="210" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-5" target="mJ7DN0NJPm78vNrxPyQj-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-5" value="参数：快照导出目录，快照数量，库名，表名&lt;br&gt;生成导入快照命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="400" width="250" height="60" as="geometry" />
+          <mxGeometry x="535" y="400" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-6" target="mJ7DN0NJPm78vNrxPyQj-12">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-6" value="循环多次导入快照数据到表" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="510" width="250" height="60" as="geometry" />
+          <mxGeometry x="535" y="510" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="mJ7DN0NJPm78vNrxPyQj-12" target="mJ7DN0NJPm78vNrxPyQj-13">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-12" value="参数：库名，表名，用户名，密码&lt;div&gt;连接databend数据库，添加添加databend_dt，is_databend_delete字段&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="610" width="250" height="60" as="geometry" />
+          <mxGeometry x="535" y="610" width="250" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mJ7DN0NJPm78vNrxPyQj-13" value="执行compact recluster final命令" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="250" y="710" width="250" height="60" as="geometry" />
+          <mxGeometry x="535" y="710" width="250" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
