@@ -10,7 +10,7 @@
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLZACTp-3pR5Ggs5oU1X-2" target="aLZACTp-3pR5Ggs5oU1X-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-12" value="3 通过定时任务，每天定点查询databend，判断满足1亿条记录的最小主键值" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-11">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-12" value="3 通过定时任务，每天定点查询databend，判断满足1亿条记录的日期时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-11">
           <mxGeometry x="-0.1586" y="3" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -50,7 +50,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-14" value="4 生成proxy配置，和更新路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-13">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-14" value="4 生成proxy配置，和基于日期时间更新路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-13">
           <mxGeometry x="-0.14" y="-3" relative="1" as="geometry">
             <mxPoint x="53" y="-7" as="offset" />
           </mxGeometry>
