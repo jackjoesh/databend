@@ -4,6 +4,22 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLZACTp-3pR5Ggs5oU1X-1" target="aLZACTp-3pR5Ggs5oU1X-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-18" value="同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-16">
+          <mxGeometry x="-0.3143" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLZACTp-3pR5Ggs5oU1X-1" target="aLZACTp-3pR5Ggs5oU1X-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-19" value="同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-17">
+          <mxGeometry x="-0.1181" y="-1" relative="1" as="geometry">
+            <mxPoint x="-4" as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-1" value="cdc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
         </mxCell>
@@ -12,7 +28,7 @@
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-12" value="3 通过定时任务，每天定点查询databend，判断满足1亿条记录的日期时间" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-11">
           <mxGeometry x="-0.1586" y="3" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="67" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-2" value="databend-proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
@@ -50,13 +66,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-14" value="4 生成proxy配置，和基于日期时间更新路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-13">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-14" value="4 生成proxy配置，和基于日期时间，主键，单个索引键盘更新路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="aLZACTp-3pR5Ggs5oU1X-13">
           <mxGeometry x="-0.14" y="-3" relative="1" as="geometry">
-            <mxPoint x="53" y="-7" as="offset" />
+            <mxPoint x="133" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-15" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
-          <mxGeometry x="230" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
