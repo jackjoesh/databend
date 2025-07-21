@@ -12,8 +12,13 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aLZACTp-3pR5Ggs5oU1X-1" target="aLZACTp-3pR5Ggs5oU1X-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="aLZACTp-3pR5Ggs5oU1X-1" target="aLZACTp-3pR5Ggs5oU1X-4" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="460" y="480" />
+              <mxPoint x="730" y="480" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-19" value="创建表和同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aLZACTp-3pR5Ggs5oU1X-17" vertex="1" connectable="0">
           <mxGeometry x="-0.1181" y="-1" relative="1" as="geometry">
@@ -21,7 +26,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-1" value="cdc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="240" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aLZACTp-3pR5Ggs5oU1X-2" target="aLZACTp-3pR5Ggs5oU1X-4" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -32,14 +37,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-2" value="databend-proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="570" y="320" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-4" value="databend" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="570" y="525" width="120" height="60" as="geometry" />
+          <mxGeometry x="730" y="545" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" target="aLZACTp-3pR5Ggs5oU1X-1" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="300" y="200" as="sourcePoint" />
+            <mxPoint x="460" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-7" value="1 传入ddl 和 maxwell topic生成cdc配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aLZACTp-3pR5Ggs5oU1X-6" vertex="1" connectable="0">
@@ -47,23 +52,23 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" target="aLZACTp-3pR5Ggs5oU1X-2" edge="1">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" target="aLZACTp-3pR5Ggs5oU1X-2" edge="1" source="aLZACTp-3pR5Ggs5oU1X-1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="630" y="200" as="sourcePoint" />
+            <mxPoint x="790" y="220" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-10" value="2 传入库名，表名，ddl，mysql用户名/密码,&lt;div&gt;proxy解析出主键和单个索引键&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aLZACTp-3pR5Ggs5oU1X-8" vertex="1" connectable="0">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-10" value="2 传入库名，表名，ddl&lt;div&gt;mysql用户名/密码,&lt;div&gt;proxy解析出主键和单个索引键&lt;/div&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aLZACTp-3pR5Ggs5oU1X-8" vertex="1" connectable="0">
           <mxGeometry x="0.2067" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="-27" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" parent="1" source="aLZACTp-3pR5Ggs5oU1X-2" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="660" y="380" as="targetPoint" />
+            <mxPoint x="820" y="400" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="710" y="350" />
-              <mxPoint x="710" y="420" />
-              <mxPoint x="660" y="420" />
+              <mxPoint x="870" y="370" />
+              <mxPoint x="870" y="440" />
+              <mxPoint x="820" y="440" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -73,7 +78,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-15" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
-          <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="400" y="540" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mrwGV0TSwpKSy3WsaggI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLZACTp-3pR5Ggs5oU1X-15" target="aLZACTp-3pR5Ggs5oU1X-15">
           <mxGeometry relative="1" as="geometry" />
