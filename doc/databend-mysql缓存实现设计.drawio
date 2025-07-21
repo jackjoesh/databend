@@ -75,6 +75,14 @@
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-15" value="mysql" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="240" y="520" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="mrwGV0TSwpKSy3WsaggI-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="aLZACTp-3pR5Ggs5oU1X-15" target="aLZACTp-3pR5Ggs5oU1X-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="mrwGV0TSwpKSy3WsaggI-2" value="定时删除超过缓存数量的数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrwGV0TSwpKSy3WsaggI-1">
+          <mxGeometry x="0.1765" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
