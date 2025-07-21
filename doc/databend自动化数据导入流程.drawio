@@ -16,6 +16,9 @@
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-3" value="1 判断是否是跨站&lt;br&gt;2 查询sm获得mysql用户名/密码" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="530" y="190" width="190" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xMNQ2bIqRYN8AZYjcFee-5" target="xMNQ2bIqRYN8AZYjcFee-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-5" value="跨站的使用rds-snapshot导入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="330" y="555" width="190" height="60" as="geometry" />
         </mxCell>
@@ -24,8 +27,11 @@
             <mxPoint x="625" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xMNQ2bIqRYN8AZYjcFee-6" value="调用cdc创建表" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-6" value="调用cdc创建表和创建同步任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="530" y="310" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="xMNQ2bIqRYN8AZYjcFee-8" target="xMNQ2bIqRYN8AZYjcFee-15">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-8" value="主站的直接使用db-archiver实时导入" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="732" y="555" width="190" height="60" as="geometry" />
@@ -38,6 +44,15 @@
         </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-12" value="存量数据导入模块" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="530" y="430" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xMNQ2bIqRYN8AZYjcFee-15" target="xMNQ2bIqRYN8AZYjcFee-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-15" value="连接数据库&lt;br&gt;1 添加&lt;span style=&quot;background-color: transparent;&quot;&gt;is_databend_delete bool NOT NULL default false&lt;/span&gt;&lt;div&gt;databend_dt TIMESTAMP&amp;nbsp; DEFAULT CURRENT_TIMESTAMP字段&lt;br&gt;2 执行compact, recluster final&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="440" y="720" width="410" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-19" value="callback回调cdc接口，开启增量" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+          <mxGeometry x="550" y="860" width="190" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
