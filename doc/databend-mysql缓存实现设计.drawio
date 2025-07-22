@@ -154,6 +154,12 @@
         <mxCell id="mrwGV0TSwpKSy3WsaggI-24" value="e &amp;gt; 3&lt;br&gt;&lt;br&gt;index = 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
           <mxGeometry x="420" y="790" width="80" height="80" as="geometry" />
         </mxCell>
+        <mxCell id="mrwGV0TSwpKSy3WsaggI-27" value="index(b)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="500" width="200" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="mrwGV0TSwpKSy3WsaggI-28" value="index(d,c)" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="530" width="200" height="20" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
