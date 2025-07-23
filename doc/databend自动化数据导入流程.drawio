@@ -60,6 +60,12 @@
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-22" value="先不在自动化流程里解决的问题：&lt;br&gt;1 maxwell 消息同步配置&lt;br&gt;2 用户访问databend表的权限和网络权限&lt;div&gt;3 cdc的批次大小&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
           <mxGeometry x="140" y="80" width="230" height="230" as="geometry" />
         </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-24" value="" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="250" width="230" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-25" value="databend团队实现和维护" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="410" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
