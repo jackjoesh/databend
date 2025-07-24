@@ -26,16 +26,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-1" value="databend cdc" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
+        <mxCell id="aLZACTp-3pR5Ggs5oU1X-1" value="databend cdc ctl" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="410" y="130" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="aLZACTp-3pR5Ggs5oU1X-2" target="aLZACTp-3pR5Ggs5oU1X-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="aLZACTp-3pR5Ggs5oU1X-12" value="3 通过定时任务，每天定点查询databend&lt;div&gt;判断满足1亿条记录的日期时间，来反向更新路由规则&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="aLZACTp-3pR5Ggs5oU1X-11" vertex="1" connectable="0">
-          <mxGeometry x="-0.1586" y="3" relative="1" as="geometry">
-            <mxPoint x="67" as="offset" />
-          </mxGeometry>
         </mxCell>
         <mxCell id="aLZACTp-3pR5Ggs5oU1X-2" value="databend-proxy" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" parent="1" vertex="1">
           <mxGeometry x="740" y="130" width="120" height="60" as="geometry" />
@@ -89,8 +81,16 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="mrwGV0TSwpKSy3WsaggI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="mrwGV0TSwpKSy3WsaggI-3" target="aLZACTp-3pR5Ggs5oU1X-15">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="mrwGV0TSwpKSy3WsaggI-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="aLZACTp-3pR5Ggs5oU1X-15">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="200" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="471" y="200" />
+              <mxPoint x="471" y="270" />
+              <mxPoint x="310" y="270" />
+              <mxPoint x="310" y="360" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="mrwGV0TSwpKSy3WsaggI-7" value="创建表和同步数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="mrwGV0TSwpKSy3WsaggI-6">
           <mxGeometry x="-0.0278" relative="1" as="geometry">
