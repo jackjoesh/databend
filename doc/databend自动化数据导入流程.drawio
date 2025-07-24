@@ -32,7 +32,7 @@
             <mxPoint x="625" y="430" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="xMNQ2bIqRYN8AZYjcFee-6" value="通过http接口调用cdc创建表和创建同步任务" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="xMNQ2bIqRYN8AZYjcFee-6" value="通过http接口调用cdc创建表和创建同步任务，&lt;div&gt;cdc task id&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="530" y="310" width="190" height="60" as="geometry" />
         </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="xMNQ2bIqRYN8AZYjcFee-8" target="xMNQ2bIqRYN8AZYjcFee-19">
