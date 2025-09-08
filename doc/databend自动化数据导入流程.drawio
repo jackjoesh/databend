@@ -79,7 +79,7 @@
         <mxCell id="KAoqbuFpRRKg9R8WhbED-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-3" target="xMNQ2bIqRYN8AZYjcFee-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KAoqbuFpRRKg9R8WhbED-3" value="1 判断是否是跨站" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-3" value="1 判断是否是跨站&lt;br&gt;2 对cloud业务强制transform转化datetime的字段&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="470" y="300" width="310" height="60" as="geometry" />
         </mxCell>
       </root>
