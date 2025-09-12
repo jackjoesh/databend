@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="ok5eM8aEzvTDwAsDHWP3">
-    <mxGraphModel dx="1473" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -59,7 +59,7 @@
           <mxGeometry x="20" y="70" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-24" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;1 所有流程如果出现异常终止都需要抛出，方便用户来找我们，存量导入模块通过callback抛出&lt;br&gt;2 整个服务要打包成一个无状态微服务架构&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;b&gt;存量导入模块特别要求：&lt;br&gt;&lt;/b&gt;1 整个存量数据导入模块可以以一个core包的方式提供出来，方便微服务集成，也方便未来代码同步merge&lt;br&gt;2 成功或失败都通过callback抛出&lt;div&gt;3 支持无状态，多个节点任务状态共享&lt;br&gt;&lt;div&gt;4 存量数据导入core包需要提供的接口：&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; a) 同步任务添加&lt;br&gt;&amp;nbsp; &amp;nbsp; b) 同步任务强制终止&lt;br&gt;&amp;nbsp; &amp;nbsp; c) 任务状态查询&lt;/div&gt;&lt;/div&gt;&lt;div&gt;xxl-job task管理表&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;" parent="1" vertex="1">
-          <mxGeometry x="1390" y="40" width="230" height="230" as="geometry" />
+          <mxGeometry x="30" y="350" width="230" height="230" as="geometry" />
         </mxCell>
         <mxCell id="xMNQ2bIqRYN8AZYjcFee-25" value="databend团队实现和维护" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="320" y="590" width="150" height="30" as="geometry" />
@@ -81,6 +81,78 @@
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-3" value="&lt;br&gt;参数准备&lt;br&gt;1 查询sm获得mysql用户名/密码&lt;br&gt;2 判断是否是跨站&lt;br&gt;3 对cloud业务强制transform转化datetime的字段&lt;div&gt;4 有base64转化需求的不处理，转人工&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;shadow=1;fontFamily=Tahoma;" vertex="1" parent="1">
           <mxGeometry x="480" y="320" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-13" value="1 获取ddl以及&lt;div&gt;所属站点&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-12">
+          <mxGeometry x="-0.3375" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-15" value="2 查询kafka topic" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-14">
+          <mxGeometry x="0.0148" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-19" value="3 获取原始库用户名，密码" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-17">
+          <mxGeometry x="0.4278" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-21" value="4 导存量数据" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-20">
+          <mxGeometry x="0.4909" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-25" value="5 传入ddl, 生成路由规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-22">
+          <mxGeometry x="0.6528" y="-3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-27" value="6 创建cdc配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-26">
+          <mxGeometry x="0.629" y="-4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-6" value="auto-import-platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1170" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-7" value="cmdb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="90" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-8" value="maxwell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="170" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-9" value="cdc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-10" value="proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="430" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-11" value="sm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-16" value="业务mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-28" value="&lt;div&gt;cmdb需要支持接口：通过instance, database, table查出ddl和所属站点&lt;/div&gt;maxwell新增接口：queryConfigByTableInfo(instance, database, table)&lt;div&gt;auto-import-platform支持接口:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 createSyncTask(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table, bu,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;business_scenario&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2 querySyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 stop&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) 停止存量或停止cdc增量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 removeSyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 dropTable(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="1080" y="680" width="490" height="390" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
