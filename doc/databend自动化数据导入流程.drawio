@@ -125,7 +125,7 @@
         <mxCell id="KAoqbuFpRRKg9R8WhbED-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-9">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="KAoqbuFpRRKg9R8WhbED-27" value="6 创建cdc配置" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-26">
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-27" value="6 创建cdc任务&lt;div&gt;查询cdc任务&lt;/div&gt;&lt;div&gt;移除cdc任务&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-26">
           <mxGeometry x="0.629" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
