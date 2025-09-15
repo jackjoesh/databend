@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/139.0.0.0 Safari/537.36" version="28.1.1">
   <diagram name="第 1 页" id="ok5eM8aEzvTDwAsDHWP3">
-    <mxGraphModel dx="1234" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1234" dy="754" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -151,11 +151,11 @@
         <mxCell id="KAoqbuFpRRKg9R8WhbED-16" value="业务mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1450" y="340" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="KAoqbuFpRRKg9R8WhbED-28" value="&lt;div&gt;cmdb接口：通过instance, database, table查出ddl和所属站点&lt;/div&gt;maxwell接口：queryConfigByTableInfo(instance, database, table)&lt;div&gt;sm 获取原始库用户名，密码，复用raft-maxwell的？&lt;br&gt;&lt;div&gt;auto-import-platform接口:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 createSyncTask(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table, bu,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;business_scenario&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2 querySyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 stop&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) 停止存量或停止cdc增量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 removeSyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 listAllTasks()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-28" value="&lt;div&gt;cmdb接口：通过instance, database, table查出ddl和所属站点&lt;/div&gt;maxwell接口：queryConfigByTableInfo(instance, database, table)&lt;div&gt;sm 获取原始库用户名，密码，复用raft-maxwell的？&lt;br&gt;&lt;div&gt;auto-import-platform接口:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 createSyncTask(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table, bu,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;business_scenario&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2 querySyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 stop&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) 停止存量或停止cdc增量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 removeSyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;5 listAllTasks()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;6&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="590" width="400" height="250" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-30" value="&lt;div&gt;&lt;span style=&quot;font-size: 9.95pt; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;import_tasks&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br/&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1330" y="860" width="180" height="150" as="geometry" />
+          <mxGeometry x="1270" y="860" width="180" height="150" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-31" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-30">
           <mxGeometry y="30" width="180" height="30" as="geometry" />
@@ -246,7 +246,7 @@
             <mxRectangle width="30" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KAoqbuFpRRKg9R8WhbED-52" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-50">
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-52" value="approve_status" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-50">
           <mxGeometry x="30" width="150" height="30" as="geometry">
             <mxRectangle width="150" height="30" as="alternateBounds" />
           </mxGeometry>
@@ -266,6 +266,76 @@
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-68" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-47" target="KAoqbuFpRRKg9R8WhbED-34">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-69" value="&lt;div&gt;&lt;span style=&quot;font-size: 9.95pt; font-family: &amp;quot;PingFang SC&amp;quot;;&quot;&gt;cdc&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1510" y="860" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-70" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-69">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-71" value="PK" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;fontStyle=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-70">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-72" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;fontStyle=5;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-70">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-73" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-69">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-74" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-73">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-75" value="id" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-73">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-76" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-69">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-77" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-76">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-78" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-76">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-79" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-69">
+          <mxGeometry y="120" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-80" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-79">
+          <mxGeometry width="30" height="30" as="geometry">
+            <mxRectangle width="30" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-81" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;whiteSpace=wrap;html=1;" vertex="1" parent="KAoqbuFpRRKg9R8WhbED-79">
+          <mxGeometry x="30" width="150" height="30" as="geometry">
+            <mxRectangle width="150" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-34" target="KAoqbuFpRRKg9R8WhbED-73">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-85" value="approve_status:&lt;div&gt;1 approve_pass&lt;/div&gt;&lt;div&gt;2 approve_fail&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1005" y="1080" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-86" value="import_status:&lt;div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusPending&amp;nbsp; &amp;nbsp; &amp;nbsp; TaskStatus = &quot;pending&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 待执行&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusRunning&amp;nbsp; &amp;nbsp; &amp;nbsp; TaskStatus = &quot;running&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;// 执行中&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusPreCompleted TaskStatus = &quot;precompleted&quot;&amp;nbsp; // 预完成（等待后处理）&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusCompleted&amp;nbsp; &amp;nbsp; TaskStatus = &quot;completed&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp;// 完成&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusFailed&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;TaskStatus = &quot;failed&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; // 失败&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusCancelled&amp;nbsp; &amp;nbsp; TaskStatus = &quot;cancelled&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp;// 已取消&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; StatusRetrying&amp;nbsp; &amp;nbsp; &amp;nbsp;TaskStatus = &quot;retrying&quot;&amp;nbsp; &amp;nbsp; &amp;nbsp; // 重试中&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="870" y="1210" width="420" height="250" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-87" value="cdc_status:&lt;div&gt;1 up&lt;/div&gt;&lt;div&gt;2 down&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1010" y="1480" width="150" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-88" value="display_status:&lt;div&gt;1 fail&lt;/div&gt;&lt;div&gt;2 pending&lt;br&gt;&lt;/div&gt;&lt;div&gt;4 snapshoting&lt;/div&gt;&lt;div&gt;5 snapshot_complete&lt;/div&gt;&lt;div&gt;5 cdc_up&lt;/div&gt;&lt;div&gt;6 cdc_down&amp;nbsp;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1530" y="1130" width="150" height="100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
