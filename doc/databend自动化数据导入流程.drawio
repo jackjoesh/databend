@@ -136,26 +136,34 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-98" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="KAoqbuFpRRKg9R8WhbED-6" target="KAoqbuFpRRKg9R8WhbED-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-99" value="7 提交issue评论" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="KAoqbuFpRRKg9R8WhbED-98">
+          <mxGeometry x="0.603" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-6" value="auto-import-platform" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1170" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="1170" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-7" value="cmdb" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="90" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="30" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-8" value="maxwell" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="170" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="110" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-9" value="cdc" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="520" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="420" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-10" value="proxy" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="430" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="340" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-11" value="sm" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="260" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="185" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-16" value="业务mysql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1450" y="340" width="120" height="60" as="geometry" />
+          <mxGeometry x="1450" y="260" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-28" value="&lt;div&gt;cmdb接口：通过instance, database, table查出ddl和所属站点&lt;/div&gt;maxwell接口：queryConfigByTableInfo(instance, database, table)&lt;div&gt;sm 获取原始库用户名，密码，复用raft-maxwell的？&lt;br&gt;&lt;div&gt;auto-import-platform接口:&amp;nbsp;&lt;/div&gt;&lt;div&gt;1 createSyncTask(&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table, bu,&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;business_scenario, is_mysql_cache&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;2 querySyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 listAllTasks() pre_tasks+import_tasks+cdc_tasks&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 querySyncTaskProcess(&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;instance, database, table&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&lt;br&gt;&lt;br&gt;admin相关接口&lt;br&gt;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 stop&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;SyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;) 停止存量或停止cdc增量&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;2 start&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;SyncTask&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255)); background-color: transparent;&quot;&gt;) 停止存量或停止cdc增量&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 removeSyncTask&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;(task_id&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;)&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;停止存量或停止cdc增量&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1080" y="590" width="400" height="250" as="geometry" />
@@ -339,6 +347,9 @@
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-96" value="&lt;div&gt;1 增加字段，不是自动化平台解决，而是依靠自动解析binlog ddl实现&lt;/div&gt;&lt;div&gt;2 增加mysql cache可以在用户同步表的时候让用户选择（本次阶段可选实现）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="1610" y="610" width="340" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KAoqbuFpRRKg9R8WhbED-97" value="issue" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="1450" y="500" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
