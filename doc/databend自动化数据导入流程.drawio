@@ -335,10 +335,10 @@
           <mxGeometry x="870" y="1210" width="420" height="250" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-87" value="cdc_status:&lt;div&gt;1 up&lt;/div&gt;&lt;div&gt;2 down&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="1480" width="150" height="100" as="geometry" />
+          <mxGeometry x="1010" y="1510" width="150" height="100" as="geometry" />
         </mxCell>
         <mxCell id="KAoqbuFpRRKg9R8WhbED-96" value="&lt;div&gt;1 增加字段，不是自动化平台解决，而是依靠自动解析binlog ddl实现&lt;/div&gt;&lt;div&gt;2 增加mysql cache可以在用户同步表的时候让用户选择（本次阶段可选实现）&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1610" y="610" width="430" height="120" as="geometry" />
+          <mxGeometry x="1610" y="610" width="340" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
