@@ -354,7 +354,7 @@
         <mxCell id="KAoqbuFpRRKg9R8WhbED-100" value="哪些状态可以stop&lt;br&gt;&lt;br&gt;cdc up" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="560" y="1180" width="150" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="-dGfYmwYQLteuogXzTMk-1" value="running_status:&lt;div&gt;1 pending&lt;/div&gt;&lt;div&gt;2 complete&lt;/div&gt;&lt;div&gt;3 fail&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="-dGfYmwYQLteuogXzTMk-1" value="running_status:&lt;div&gt;1 init&lt;br&gt;2 process&lt;/div&gt;&lt;div&gt;3 complete&lt;/div&gt;&lt;div&gt;4 fail&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="1130" y="1070" width="150" height="100" as="geometry" />
         </mxCell>
       </root>
