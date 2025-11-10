@@ -1,9 +1,110 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36" version="28.2.9">
   <diagram name="第 1 页" id="SAcuDPEa3QgiwLzFPWGv">
-    <mxGraphModel>
+    <mxGraphModel dx="1120" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiOTSAjdAnC3u5A-el4X-1" target="XiOTSAjdAnC3u5A-el4X-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-1" value="日期时间戳： 41 bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="220" y="380" width="440" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-35" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="XiOTSAjdAnC3u5A-el4X-2" target="XiOTSAjdAnC3u5A-el4X-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-47" value="2 通过数据库自增ID生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="XiOTSAjdAnC3u5A-el4X-35">
+          <mxGeometry x="0.4415" y="11" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;curved=1;" edge="1" parent="1" source="XiOTSAjdAnC3u5A-el4X-2" target="XiOTSAjdAnC3u5A-el4X-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-46" value="1 通过ip地址后几位Hash生成" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="XiOTSAjdAnC3u5A-el4X-45">
+          <mxGeometry x="0.16" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" edge="1" parent="1" source="XiOTSAjdAnC3u5A-el4X-2" target="XiOTSAjdAnC3u5A-el4X-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-53" value="3 通过ZK等中间件维护注册节点IP&lt;div&gt;和WorkerID的映射&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" vertex="1" connectable="0" parent="XiOTSAjdAnC3u5A-el4X-51">
+          <mxGeometry x="0.5234" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-2" value="WorkerID：10bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" vertex="1" parent="1">
+          <mxGeometry x="660" y="380" width="210" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="XiOTSAjdAnC3u5A-el4X-3" target="XiOTSAjdAnC3u5A-el4X-54">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-3" value="序列号：12bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="870" y="380" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-4" value="保留位 1bit" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#a20025;fontColor=#ffffff;strokeColor=#6F0000;" vertex="1" parent="1">
+          <mxGeometry x="160" y="380" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-6" value="依赖机器系统时钟，最大容忍时钟回拨5ms，否则算法抛异常" style="rounded=0;whiteSpace=wrap;html=1;fontSize=12;align=left;" vertex="1" parent="1">
+          <mxGeometry x="347.5" y="200" width="185" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-25" value="Table" style="shape=table;startSize=30;container=1;collapsible=0;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=0;strokeColor=default;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="550" y="630" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-26" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-25">
+          <mxGeometry y="30" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-27" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;pointerEvents=1;strokeColor=inherit;fontSize=16;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-26">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-28" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;172.16.10.11&lt;/font&gt;" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=16;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-26">
+          <mxGeometry x="40" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-29" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-25">
+          <mxGeometry y="60" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-30" value="2" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=14;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-29">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-31" value="172.16.10.14" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=14;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-29">
+          <mxGeometry x="40" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-32" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;top=0;left=0;bottom=0;right=0;collapsible=0;dropTarget=0;fillColor=none;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;strokeColor=inherit;fontSize=16;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-25">
+          <mxGeometry y="90" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-33" value="3" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;overflow=hidden;strokeColor=inherit;fontSize=14;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-32">
+          <mxGeometry width="40" height="30" as="geometry">
+            <mxRectangle width="40" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-34" value="172.16.20.11" style="shape=partialRectangle;html=1;whiteSpace=wrap;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;overflow=hidden;strokeColor=inherit;fontSize=14;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-32">
+          <mxGeometry x="40" width="140" height="30" as="geometry">
+            <mxRectangle width="140" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-42" value="&lt;span&gt;本地算法生成，不依赖任何组件：&lt;/span&gt;&lt;div&gt;&lt;span&gt;172.16.&lt;font style=&quot;color: rgb(102, 178, 255);&quot;&gt;10.11&lt;/font&gt; -&amp;gt;&amp;nbsp;&lt;/span&gt;Hash(&lt;span&gt;&lt;font style=&quot;color: rgb(102, 178, 255);&quot;&gt;10.11&lt;/font&gt;&lt;/span&gt;)&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;-&amp;gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;font&gt;WorkerID&lt;/font&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;代价： WorkerID从10bit扩容到16bit&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;序列号从12bit缩减到8bit，并发从4096/ms缩减到256/ms&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font&gt;时间戳从41bit缩减到39bit，有效年限从69.7年缩减到17.4年&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;rounded=0;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="80" y="630" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-49" value="&#xa;172.16.10.11 - 1&#xa;172.16.10.14 - 2&#xa;172.16.20.11 - 3&#xa;&#xa;&#xa;" style="fillColor=#ffffff;strokeColor=#dddddd;shadow=1;strokeWidth=1;rounded=1;absoluteArcSize=1;arcSize=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="850" y="630" width="220" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-50" value="ZK/Eureka/Redis" style="editableCssRules=.*;html=1;fontColor=#999999;shape=image;verticalLabelPosition=middle;verticalAlign=middle;labelPosition=right;align=left;spacingLeft=20;part=1;points=[];imageAspect=0;image=data:image/svg+xml,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnY9Imh0dHBzOi8vdmVjdGEuaW8vbmFubyIgd2lkdGg9IjIxLjk5OTAwMDU0OTMxNjQwNiIgaGVpZ2h0PSIyMC4zOTM5OTkwOTk3MzE0NDUiIHZpZXdCb3g9IjAgMCAyMS45OTkwMDA1NDkzMTY0MDYgMjAuMzkzOTk5MDk5NzMxNDQ1Ij4mI3hhOwk8c3R5bGUgdHlwZT0idGV4dC9jc3MiPiYjeGE7CS5zdDB7ZmlsbDojNDI4NWY0O2ZpbGwtcnVsZTpldmVub2RkfSYjeGE7CTwvc3R5bGU+JiN4YTsJPHBhdGggY2xhc3M9InN0MCIgZD0iTTUgMHYyLjQ1OEwxLjk5OSA0LjE5N3YxMi4wMUw1IDE3LjkzOHYyLjQ1NmwtNS0yLjg4N1YyLjg4NnptMTIgMGw0Ljk5OSAyLjg4NnYxNC42MjFMMTcgMjAuMzk0di0yLjQ1NmwzLTEuNzMxVjQuMTk3bC0zLTEuNzM5em0tNi4wMTYgNi42NzNsMi45NDctMS42NDYtMi45NDctMS42NDYtMi45NDcgMS42NDZ6bTMuMjY4LTEuMDk2bC0yLjg3MSAxLjY3OHYzLjI4N2wyLjg3MS0xLjY3NnpNNy43NzMgOC44NjZsMi44NzEgMS42NzRWNy4yNTZMNy43NzMgNS41Nzd6bS0uMjEyIDMuODc4bDIuODItMS42NDYtMi44Mi0xLjY0Ni0yLjgyIDEuNjQ2em0zLjEzMi0xLjA5OGwtMi44NzEgMS42Nzh2My4yODdsMi44NzEtMS42NzZ6bS02LjI2NCAzLjI4OUw3LjMgMTYuNjA5di0zLjI4NWwtMi44NzEtMS42Nzl6bTEwLjAyOS0yLjE5MWwyLjgyLTEuNjQ2LTIuODItMS42NDYtMi44MiAxLjY0NnptMy4xMzItMS4wOThsLTIuODcxIDEuNjc4djMuMjg3bDIuODcxLTEuNjc2em0tNi4yNjQgMy4yODlsMi44NzEgMS42NzR2LTMuMjg1bC0yLjg3MS0xLjY3OXoiLz4mI3hhOzwvc3ZnPg==;" vertex="1" parent="XiOTSAjdAnC3u5A-el4X-49">
+          <mxGeometry width="30" height="27" relative="1" as="geometry">
+            <mxPoint x="15" y="16.5" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="XiOTSAjdAnC3u5A-el4X-54" value="本地自增" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="902.5" y="200" width="185" height="70" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
