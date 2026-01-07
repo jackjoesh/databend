@@ -495,7 +495,7 @@
           <mxGeometry height="80" width="80" x="170" y="1780" as="geometry" />
         </mxCell>
         <mxCell id="FFv_aawo2WWtvgP5gTRb-5" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="&lt;div&gt;ddl.rs/config.rs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="80" width="80" x="400" y="2030" as="geometry" />
+          <mxGeometry height="80" width="80" x="395" y="2020" as="geometry" />
         </mxCell>
         <mxCell id="FFv_aawo2WWtvgP5gTRb-10" edge="1" parent="1" source="FFv_aawo2WWtvgP5gTRb-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="FFv_aawo2WWtvgP5gTRb-9">
           <mxGeometry relative="1" as="geometry" />
@@ -508,8 +508,19 @@
         <mxCell id="FFv_aawo2WWtvgP5gTRb-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="event_parser.rs&lt;div&gt;支持2种：&lt;/div&gt;&lt;div&gt;1 新增列&lt;/div&gt;&lt;div&gt;2 修改int/decimal精度&lt;/div&gt;" vertex="1">
           <mxGeometry height="60" width="120" x="380" y="1790" as="geometry" />
         </mxCell>
-        <mxCell id="FFv_aawo2WWtvgP5gTRb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="processor.rs&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="760" y="1790" as="geometry" />
+        <mxCell id="FFv_aawo2WWtvgP5gTRb-15" edge="1" parent="1" source="FFv_aawo2WWtvgP5gTRb-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="FFv_aawo2WWtvgP5gTRb-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="FFv_aawo2WWtvgP5gTRb-16" connectable="0" parent="FFv_aawo2WWtvgP5gTRb-15" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="sender msg" vertex="1">
+          <mxGeometry relative="1" x="-0.1378" y="2" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FFv_aawo2WWtvgP5gTRb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="processor.rs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 先更新普通row的数据&lt;/div&gt;&lt;div&gt;2 更新点位前检查ddl map是否有内容，如果有则更新ddl&lt;/div&gt;&lt;div&gt;3 更新点位&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="318" x="742" y="1752.5" as="geometry" />
+        </mxCell>
+        <mxCell id="FFv_aawo2WWtvgP5gTRb-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ddl_processor.rs&lt;div&gt;&lt;div&gt;1 打日志到ddl.log&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2 更新cdc的assignment 配置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 重新启动cdc&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="135" width="318" x="742" y="2000" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
