@@ -519,7 +519,7 @@
         <mxCell id="FFv_aawo2WWtvgP5gTRb-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="processor.rs&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;1 先更新普通row的数据&lt;/div&gt;&lt;div&gt;2 更新点位前检查ddl map是否有内容，如果有则更新ddl&lt;/div&gt;&lt;div&gt;3 更新点位&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="135" width="318" x="742" y="1752.5" as="geometry" />
         </mxCell>
-        <mxCell id="FFv_aawo2WWtvgP5gTRb-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ddl_processor.rs&lt;div&gt;&lt;div&gt;1 打日志到ddl.log&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2 更新cdc的assignment 配置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 重新启动cdc&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="FFv_aawo2WWtvgP5gTRb-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="ddl_processor.rs&lt;div&gt;&lt;div&gt;1 打日志到ddl.log&lt;/div&gt;&lt;/div&gt;&lt;div&gt;2 stop cdc&lt;/div&gt;&lt;div&gt;3 更新cdc的assignment 配置&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;4 重新启动cdc&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="135" width="318" x="742" y="2000" as="geometry" />
         </mxCell>
       </root>
