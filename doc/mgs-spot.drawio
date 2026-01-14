@@ -152,14 +152,14 @@
           <mxGeometry height="50" relative="1" width="50" as="geometry">
             <Array as="points">
               <mxPoint x="120" y="510" />
-              <mxPoint x="120" y="60" />
-              <mxPoint x="1150" y="60" />
+              <mxPoint x="120" y="80" />
+              <mxPoint x="1150" y="80" />
             </Array>
             <mxPoint x="60" y="470" as="sourcePoint" />
             <mxPoint x="110" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-102" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 get tran id (强依赖)" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-102" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.1&amp;nbsp; get tran id (弱依赖)" vertex="1">
           <mxGeometry relative="1" x="0.0671" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -257,6 +257,24 @@
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-141" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-138" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.2 queryComplianceResult&amp;nbsp;timeout 2s, pass的结果缓存15s, 不pass的结果缓存1s(弱依赖)" vertex="1">
           <mxGeometry relative="1" x="-0.3921" y="-1" as="geometry">
             <mxPoint x="175" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-146" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="sequence" vertex="1">
+          <mxGeometry height="60" width="120" x="1230" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-147" edge="1" parent="1" source="Jfaa2IsqcJtRvBCAq8D3-104" style="endArrow=classic;html=1;rounded=0;exitX=0.25;exitY=0;exitDx=0;exitDy=0;edgeStyle=orthogonalEdgeStyle;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="Jfaa2IsqcJtRvBCAq8D3-146" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="85" y="60" />
+              <mxPoint x="1290" y="60" />
+            </Array>
+            <mxPoint x="60" y="370" as="sourcePoint" />
+            <mxPoint x="970" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-148" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-147" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4.2&amp;nbsp; &amp;nbsp;补充tran id (强依赖)" vertex="1">
+          <mxGeometry relative="1" x="-0.1252" as="geometry">
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
