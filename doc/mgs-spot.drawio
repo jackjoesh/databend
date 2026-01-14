@@ -21,7 +21,7 @@
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-55" edge="1" parent="1" source="Jfaa2IsqcJtRvBCAq8D3-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Jfaa2IsqcJtRvBCAq8D3-23">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-57" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 validate product(sync)" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-57" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-55" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 validate product" vertex="1">
           <mxGeometry relative="1" x="-0.2421" y="-2" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -44,9 +44,9 @@
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-103" edge="1" parent="1" source="Jfaa2IsqcJtRvBCAq8D3-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Jfaa2IsqcJtRvBCAq8D3-100">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-105" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 collect transfer&amp;nbsp;" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-105" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-103" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 collect transfer&amp;nbsp;timeout 1.8s&amp;nbsp;" vertex="1">
           <mxGeometry relative="1" x="-0.643" y="3" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="322" y="-7" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-42" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="processAssetCollect" vertex="1">
@@ -204,9 +204,9 @@
             <mxPoint x="1090" y="590" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-110" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6&amp;nbsp;redeem" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-110" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-109" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6&amp;nbsp;redeem&amp;nbsp;timeout 1.8s" vertex="1">
           <mxGeometry relative="1" x="0.261" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="-11" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-111" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;spot-copy-trade&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
