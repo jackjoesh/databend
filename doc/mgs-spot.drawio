@@ -131,7 +131,7 @@
             <mxPoint x="810" y="460" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-95" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 AU的USDC币种才风控，timeout 1.8s" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-95" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-93" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 AU的USDC币种才风控，timeout 1.8s(强依赖)" vertex="1">
           <mxGeometry relative="1" x="-0.5695" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
