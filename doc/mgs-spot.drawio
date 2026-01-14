@@ -143,7 +143,7 @@
           <mxGeometry height="60" width="120" x="1090" y="410" as="geometry" />
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;b&gt;orderTaskExecutorPool&lt;/b&gt;&lt;/div&gt;&lt;div&gt;taskExecutor.setCorePoolSize(64);&lt;/div&gt;&lt;div&gt;taskExecutor.setMaxPoolSize(64);&lt;/div&gt;&lt;div&gt;taskExecutor.setQueueCapacity(1024);&lt;/div&gt;&lt;div&gt;taskExecutor.setKeepAliveSeconds(60);&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="240" x="431" y="850" as="geometry" />
+          <mxGeometry height="120" width="240" x="440" y="820" as="geometry" />
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="transfer" vertex="1">
           <mxGeometry height="60" width="120" x="1090" y="480" as="geometry" />
@@ -202,7 +202,7 @@
             <mxPoint x="960" y="720" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-115" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-113" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 如果是copy-trade&amp;nbsp; getTradingAccount(强依赖)" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-115" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-113" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 如果是copy-trade&amp;nbsp; getTradingAccount timeout 1.8s(强依赖)" vertex="1">
           <mxGeometry relative="1" x="0.354" as="geometry">
             <mxPoint x="90" y="-10" as="offset" />
           </mxGeometry>
@@ -213,10 +213,10 @@
             <mxPoint x="870" y="750" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-116" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 如果不是copy-trade，head里也没有account&amp;nbsp; getTradingAccount(弱依赖)" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-116" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="8 如果不是copy-trade，head里也没有account&amp;nbsp; getTradingAccount timeout 1.8s(弱依赖)" vertex="1">
           <mxGeometry x="870" y="750" as="geometry" />
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="mbx" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="mbx" vertex="1">
           <mxGeometry height="40" width="120" x="225" y="780" as="geometry" />
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-132" connectable="0" parent="1" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="timeout 500ms" vertex="1">
