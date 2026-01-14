@@ -7,9 +7,9 @@
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-56" edge="1" parent="1" source="Jfaa2IsqcJtRvBCAq8D3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Jfaa2IsqcJtRvBCAq8D3-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-58" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.1 getProductBySymbol timeout 2s 永久缓存" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-58" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.1 getProductBySymbol timeout 2s 永久缓存(弱依赖)" vertex="1">
           <mxGeometry relative="1" x="-0.1657" y="-1" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint x="16" y="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-39" parent="1" style="whiteSpace=wrap;html=1;strokeWidth=2;" value="" vertex="1">
@@ -159,7 +159,7 @@
             <mxPoint x="110" y="50" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-102" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 get tran id" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-102" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-101" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 get tran id (强依赖)" vertex="1">
           <mxGeometry relative="1" x="0.0671" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -254,7 +254,7 @@
             <mxPoint x="1090" y="205" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-141" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-138" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.2 queryComplianceResult&amp;nbsp;timeout 2s, pass的结果缓存15s, 不pass的结果缓存1s" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-141" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-138" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2.2 queryComplianceResult&amp;nbsp;timeout 2s, pass的结果缓存15s, 不pass的结果缓存1s(弱依赖)" vertex="1">
           <mxGeometry relative="1" x="-0.3921" y="-1" as="geometry">
             <mxPoint x="175" as="offset" />
           </mxGeometry>
