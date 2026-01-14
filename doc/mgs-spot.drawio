@@ -143,7 +143,7 @@
           <mxGeometry height="60" width="120" x="1090" y="410" as="geometry" />
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-99" parent="1" style="rounded=0;whiteSpace=wrap;html=1;align=left;" value="&lt;div&gt;&lt;b&gt;orderTaskExecutorPool&lt;/b&gt;&lt;/div&gt;&lt;div&gt;taskExecutor.setCorePoolSize(64);&lt;/div&gt;&lt;div&gt;taskExecutor.setMaxPoolSize(64);&lt;/div&gt;&lt;div&gt;taskExecutor.setQueueCapacity(1024);&lt;/div&gt;&lt;div&gt;taskExecutor.setKeepAliveSeconds(60);&lt;/div&gt;" vertex="1">
-          <mxGeometry height="120" width="240" x="840" y="880" as="geometry" />
+          <mxGeometry height="120" width="240" x="431" y="850" as="geometry" />
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-100" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="transfer" vertex="1">
           <mxGeometry height="60" width="120" x="1090" y="480" as="geometry" />
