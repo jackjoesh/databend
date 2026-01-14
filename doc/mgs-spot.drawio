@@ -7,7 +7,7 @@
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-56" edge="1" parent="1" source="Jfaa2IsqcJtRvBCAq8D3-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Jfaa2IsqcJtRvBCAq8D3-53">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-58" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.1 getProductBySymbol timeout 2s" vertex="1">
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-58" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-56" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1.1 虚拟线程 getProductBySymbol timeout 2s" vertex="1">
           <mxGeometry relative="1" x="-0.1657" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -237,6 +237,17 @@
         </mxCell>
         <mxCell id="Jfaa2IsqcJtRvBCAq8D3-117" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="mbx" vertex="1">
           <mxGeometry height="40" width="120" x="225" y="780" as="geometry" />
+        </mxCell>
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-120" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;fillColor=#d80073;strokeColor=#A50040;" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="205" y="920" as="sourcePoint" />
+            <mxPoint x="335" y="920" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Jfaa2IsqcJtRvBCAq8D3-122" connectable="0" parent="Jfaa2IsqcJtRvBCAq8D3-120" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="虚拟线程" vertex="1">
+          <mxGeometry relative="1" x="-0.2154" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
