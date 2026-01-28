@@ -1,9 +1,170 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.0">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.3.4">
   <diagram name="第 1 页" id="vWFFVCPXUQLUG8cnzpl-">
-    <mxGraphModel>
+    <mxGraphModel dx="1234" dy="751" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="streamer-web" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="account" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="230" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-5" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MfFgS79nDfG5iJVgZWjU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-21" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-5" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是margin/fiat/mining/card, 通过getUserById获取对应user id&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4642" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-8" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="MfFgS79nDfG5iJVgZWjU-7">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="260" />
+              <mxPoint x="670" y="110" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-10" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.561" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-11" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;.&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.1073" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-17" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是ISOLATED_MARGIN，通过queryMarginUid获取对应user id&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4983" y="-2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="mgs-spot" vertex="1">
+          <mxGeometry height="40" width="100" x="280" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-6" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-4" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MfFgS79nDfG5iJVgZWjU-1" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="260" />
+              <mxPoint x="670" y="540" />
+            </Array>
+            <mxPoint x="640" y="350" as="sourcePoint" />
+            <mxPoint x="770" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-9" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="get-open-orders" vertex="1">
+          <mxGeometry relative="1" x="-0.7632" y="3" as="geometry">
+            <mxPoint x="-6" y="-7" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-22" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-6" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="通过queryOpenOrder/queryIsolatedOpenOrder查询订单列表&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.516" y="4" as="geometry">
+            <mxPoint x="47" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="margin-isolated-web" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="copy-trade" vertex="1">
+          <mxGeometry height="60" width="120" x="1040" y="360" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-13" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-4" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MfFgS79nDfG5iJVgZWjU-12" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="260" />
+              <mxPoint x="670" y="390" />
+            </Array>
+            <mxPoint x="520" y="420" as="sourcePoint" />
+            <mxPoint x="570" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-15" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-13" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是跟单，通过getCopyPortfolioAccount/getLeadPortfolioAccount&lt;div&gt;获取copy trade user id&lt;div&gt;150ms&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.4316" as="geometry">
+            <mxPoint x="35" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#60a917;fontColor=#ffffff;strokeColor=#2D7600;" value="mgs-spot" vertex="1">
+          <mxGeometry height="40" width="100" x="310" y="830" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="margin-isolated-web" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="740" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="account" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="880" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-26" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-23" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MfFgS79nDfG5iJVgZWjU-24" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="850" />
+              <mxPoint x="700" y="770" />
+            </Array>
+            <mxPoint x="640" y="870" as="sourcePoint" />
+            <mxPoint x="690" y="820" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-29" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-26" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是ISOLATED_MARGIN，通过queryMarginUid获取对应user id&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.429" y="4" as="geometry">
+            <mxPoint x="14" y="4" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-27" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-23" style="endArrow=classic;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;edgeStyle=orthogonalEdgeStyle;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MfFgS79nDfG5iJVgZWjU-25" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="850" />
+              <mxPoint x="700" y="910" />
+            </Array>
+            <mxPoint x="730" y="960" as="sourcePoint" />
+            <mxPoint x="780" y="910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-28" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;fetch-tran-orders&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.6507" y="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-31" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-27" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是margin/fiat/mining/card, 通过getUserById获取对应user id&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5164" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-32" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="copy-trade" vertex="1">
+          <mxGeometry height="60" width="120" x="1080" y="990" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-33" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#1ba1e2;fontColor=#ffffff;strokeColor=#006EAF;" value="streamer-web" vertex="1">
+          <mxGeometry height="60" width="120" x="1090" y="1110" as="geometry" />
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-34" edge="1" parent="1" source="MfFgS79nDfG5iJVgZWjU-23" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="MfFgS79nDfG5iJVgZWjU-32" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="850" />
+              <mxPoint x="700" y="1020" />
+            </Array>
+            <mxPoint x="770" y="1050" as="sourcePoint" />
+            <mxPoint x="820" y="1000" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-37" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="如果是跟单，通过getCopyPortfolioAccount/getLeadPortfolioAccount&lt;div&gt;获取copy trade user id&lt;div&gt;150ms&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5282" y="2" as="geometry">
+            <mxPoint x="8" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-35" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;edgeStyle=orthogonalEdgeStyle;entryX=-0.017;entryY=0.367;entryDx=0;entryDy=0;entryPerimeter=0;" target="MfFgS79nDfG5iJVgZWjU-33" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <Array as="points">
+              <mxPoint x="700" y="850" />
+              <mxPoint x="700" y="1132" />
+            </Array>
+            <mxPoint x="410" y="850" as="sourcePoint" />
+            <mxPoint x="680" y="1100" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="MfFgS79nDfG5iJVgZWjU-38" connectable="0" parent="MfFgS79nDfG5iJVgZWjU-35" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="通过getHasTransOrders查询订单列表&lt;div&gt;1.8s&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.5282" y="3" as="geometry">
+            <mxPoint x="32" as="offset" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
