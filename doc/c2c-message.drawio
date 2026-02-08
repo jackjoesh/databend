@@ -99,8 +99,17 @@
             <mxPoint x="10" y="11" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y9QqqenTYkERKzUrAxK2-32" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="主表&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;primay key: user_id,scenario&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="200" x="240" y="760" as="geometry" />
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-39" edge="1" parent="1" source="Y9QqqenTYkERKzUrAxK2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y9QqqenTYkERKzUrAxK2-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-40" edge="1" parent="1" source="Y9QqqenTYkERKzUrAxK2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="Y9QqqenTYkERKzUrAxK2-37">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-42" edge="1" parent="1" source="Y9QqqenTYkERKzUrAxK2-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="Y9QqqenTYkERKzUrAxK2-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-32" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="主表&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;primay key: user_id&lt;/div&gt;" vertex="1">
+          <mxGeometry height="150" width="150" x="230" y="800" as="geometry" />
         </mxCell>
         <mxCell id="Y9QqqenTYkERKzUrAxK2-33" parent="1" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.database;whiteSpace=wrap;" value="redis" vertex="1">
           <mxGeometry height="60" width="60" x="1010" y="50" as="geometry" />
@@ -113,11 +122,14 @@
             <mxPoint x="33" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Y9QqqenTYkERKzUrAxK2-36" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="影子表1&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cluster key: is_pinned&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="170" x="600" y="720" as="geometry" />
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-36" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="影子表1&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cluster key: scenario,is_pinned&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="130" x="600" y="720" as="geometry" />
         </mxCell>
-        <mxCell id="Y9QqqenTYkERKzUrAxK2-37" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="影子表2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;primay key: user_id,scenario&lt;/div&gt;" vertex="1">
-          <mxGeometry height="170" width="170" x="600" y="930" as="geometry" />
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-37" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="影子表2&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;cluster key:&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;session_id,session_type&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="600" y="910" as="geometry" />
+        </mxCell>
+        <mxCell id="Y9QqqenTYkERKzUrAxK2-41" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;" value="影子表n&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;......&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="140" x="600" y="1100" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
