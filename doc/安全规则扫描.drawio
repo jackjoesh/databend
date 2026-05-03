@@ -40,7 +40,7 @@
         <mxCell id="BZSGkBbcOcEUag34DBB_-7" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BZSGkBbcOcEUag34DBB_-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-14" connectable="0" parent="BZSGkBbcOcEUag34DBB_-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 把有问题的接口存入git，&lt;div&gt;目录规则位{服务名称}/&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{问题类别}/风险接口md文件&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-14" connectable="0" parent="BZSGkBbcOcEUag34DBB_-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 把有问题的接口存入git，&lt;div&gt;{服务名称}/&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{问题类别}/风险接口md文件&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.0845" y="1" as="geometry">
             <mxPoint x="51" y="34" as="offset" />
           </mxGeometry>
