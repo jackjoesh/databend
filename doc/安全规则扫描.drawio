@@ -4,38 +4,29 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="SJECwPXb0EPlWWx2axZS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Binance code plugin" vertex="1">
-          <mxGeometry height="60" width="140" x="820" y="370" as="geometry" />
-        </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-10" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;curved=1;" target="SJECwPXb0EPlWWx2axZS-4">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-2" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="BZSGkBbcOcEUag34DBB_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="doc.devfdg.net架构文档" vertex="1">
-          <mxGeometry height="60" width="140" x="440" y="180" as="geometry" />
+        <mxCell id="SJECwPXb0EPlWWx2axZS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
+          <mxGeometry height="130" width="270" x="400" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-16" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="SJECwPXb0EPlWWx2axZS-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="业务系统" vertex="1">
+          <mxGeometry height="60" width="140" x="130" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;BE Arch weekly meeting&lt;/div&gt;&lt;div&gt;文档&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="440" y="280" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Binance code plugin" vertex="1">
+          <mxGeometry height="60" width="140" x="820" y="320" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-17" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="SJECwPXb0EPlWWx2axZS-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="SJECwPXb0EPlWWx2axZS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Arch scan agent" vertex="1">
+          <mxGeometry height="60" width="140" x="470" y="195" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-7" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;streamer/asset-service代码&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="440" y="370" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Lumina" vertex="1">
+          <mxGeometry height="30" width="60" x="410" y="160" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-18" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;curved=1;" target="SJECwPXb0EPlWWx2axZS-4">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="wea" vertex="1">
+          <mxGeometry height="60" width="140" x="600" y="500" as="geometry" />
         </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;咨询issue列表&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="440" y="470" as="geometry" />
-        </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-19" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;curved=1;" target="SJECwPXb0EPlWWx2axZS-4">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="SJECwPXb0EPlWWx2axZS-9" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="&lt;div&gt;安全文档&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="140" x="440" y="590" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="git" vertex="1">
+          <mxGeometry height="60" width="140" x="360" y="500" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
