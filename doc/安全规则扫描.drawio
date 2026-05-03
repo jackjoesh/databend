@@ -7,26 +7,101 @@
         <mxCell id="BZSGkBbcOcEUag34DBB_-2" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" target="BZSGkBbcOcEUag34DBB_-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-9" connectable="0" parent="BZSGkBbcOcEUag34DBB_-2" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 定时扫描项目代码" vertex="1">
+          <mxGeometry relative="1" x="0.0582" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="SJECwPXb0EPlWWx2axZS-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" value="" vertex="1">
-          <mxGeometry height="130" width="270" x="400" y="160" as="geometry" />
+          <mxGeometry height="130" width="320" x="530" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-19" edge="1" parent="1" source="BZSGkBbcOcEUag34DBB_-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" target="BZSGkBbcOcEUag34DBB_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-20" connectable="0" parent="BZSGkBbcOcEUag34DBB_-19" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 trace数据" vertex="1">
+          <mxGeometry relative="1" x="-0.1937" y="3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="业务系统" vertex="1">
           <mxGeometry height="60" width="140" x="130" y="400" as="geometry" />
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Binance code plugin" vertex="1">
-          <mxGeometry height="60" width="140" x="820" y="320" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-23" edge="1" parent="1" source="BZSGkBbcOcEUag34DBB_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BZSGkBbcOcEUag34DBB_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-24" connectable="0" parent="BZSGkBbcOcEUag34DBB_-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 回写git" vertex="1">
+          <mxGeometry relative="1" x="-0.1931" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Apm plus" vertex="1">
+          <mxGeometry height="60" width="140" x="590" y="670" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-7" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BZSGkBbcOcEUag34DBB_-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-14" connectable="0" parent="BZSGkBbcOcEUag34DBB_-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="3 把有问题的接口存入git，&lt;div&gt;目录规则位{服务名称}/&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;{问题类别}/报警规则md文件&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.0845" y="1" as="geometry">
+            <mxPoint x="51" y="34" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-8" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="BZSGkBbcOcEUag34DBB_-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-15" connectable="0" parent="BZSGkBbcOcEUag34DBB_-8" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 wea卡片通知用户" vertex="1">
+          <mxGeometry relative="1" x="0.538" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="SJECwPXb0EPlWWx2axZS-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="Arch scan agent" vertex="1">
-          <mxGeometry height="60" width="140" x="470" y="195" as="geometry" />
+          <mxGeometry height="60" width="140" x="600" y="195" as="geometry" />
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-4" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Lumina" vertex="1">
-          <mxGeometry height="30" width="60" x="410" y="160" as="geometry" />
+          <mxGeometry height="30" width="60" x="540" y="160" as="geometry" />
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="wea" vertex="1">
-          <mxGeometry height="60" width="140" x="600" y="500" as="geometry" />
+          <mxGeometry height="60" width="140" x="470" y="479.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-17" edge="1" parent="1" source="BZSGkBbcOcEUag34DBB_-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="BZSGkBbcOcEUag34DBB_-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-18" connectable="0" parent="BZSGkBbcOcEUag34DBB_-17" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 定期加载问题接口规则" vertex="1">
+          <mxGeometry relative="1" x="-0.3536" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;" value="git" vertex="1">
-          <mxGeometry height="60" width="140" x="360" y="500" as="geometry" />
+          <mxGeometry height="60" width="140" x="730" y="479.5" as="geometry" />
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-12" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="SJECwPXb0EPlWWx2axZS-4">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="760" y="225" />
+              <mxPoint x="760" y="80" />
+              <mxPoint x="670" y="80" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-13" connectable="0" parent="BZSGkBbcOcEUag34DBB_-12" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 利用arch skill进行代码监测&lt;div&gt;&amp;nbsp; &amp;nbsp; 1) 越权访问和链式身份泄露&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="0.2054" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-21" edge="1" parent="1" source="BZSGkBbcOcEUag34DBB_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" target="BZSGkBbcOcEUag34DBB_-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="695" y="790" />
+              <mxPoint x="625" y="790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-22" connectable="0" parent="BZSGkBbcOcEUag34DBB_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 统计接口问题是否真的存在" vertex="1">
+          <mxGeometry relative="1" x="-0.0842" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-25" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;Heading&lt;/h1&gt;&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="1010" y="270" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
