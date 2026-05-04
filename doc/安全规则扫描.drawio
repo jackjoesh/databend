@@ -121,7 +121,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;安全规则&lt;/h1&gt;&lt;p&gt;IDOR Skill = 找&quot;没有守门人的入口&quot;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;链式泄露 Skill = 找&quot;出口比入口值钱的接口&quot;&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="130" width="250" x="950" y="40" as="geometry" />
+          <mxGeometry height="130" width="250" x="940" y="160" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
