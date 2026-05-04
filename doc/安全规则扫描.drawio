@@ -100,6 +100,9 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;md文件内容&lt;/h1&gt;&lt;p&gt;1 接口&lt;br&gt;2 越权访问的枚举id字段&lt;br&gt;3 链式访问的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;枚举id字段&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="120" width="180" x="980" y="290" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
