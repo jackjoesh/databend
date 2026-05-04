@@ -29,7 +29,7 @@
         <mxCell id="BZSGkBbcOcEUag34DBB_-23" edge="1" parent="1" source="BZSGkBbcOcEUag34DBB_-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="BZSGkBbcOcEUag34DBB_-6">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-24" connectable="0" parent="BZSGkBbcOcEUag34DBB_-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 明确接口风险，回写git" vertex="1">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-24" connectable="0" parent="BZSGkBbcOcEUag34DBB_-23" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 明确接口风险，回写git" vertex="1">
           <mxGeometry relative="1" x="-0.1931" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -95,19 +95,30 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-22" connectable="0" parent="BZSGkBbcOcEUag34DBB_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="6 枚举id报警" vertex="1">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-22" connectable="0" parent="BZSGkBbcOcEUag34DBB_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 对同一个用户同一个接口一分钟调用超过n次的" vertex="1">
           <mxGeometry relative="1" x="-0.0842" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;md文件内容&lt;/h1&gt;&lt;p&gt;1 接口&lt;br&gt;2 越权访问的枚举id字段&lt;br&gt;3 链式访问的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;枚举id字段&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="120" width="180" x="980" y="290" as="geometry" />
+          <mxGeometry height="120" width="220" x="890" y="460" as="geometry" />
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Databend" vertex="1">
-          <mxGeometry height="80" width="120" x="810" y="780" as="geometry" />
+          <mxGeometry height="80" width="120" x="1130" y="450" as="geometry" />
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-29" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text" vertex="1">
-          <mxGeometry height="70" width="220" x="900" y="630" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-30" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="BZSGkBbcOcEUag34DBB_-27">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="670" y="255" />
+              <mxPoint x="670" y="330" />
+              <mxPoint x="1190" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="BZSGkBbcOcEUag34DBB_-31" connectable="0" parent="BZSGkBbcOcEUag34DBB_-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 查询databend判断参数是否符合越权访问和链式身份泄" vertex="1">
+          <mxGeometry relative="1" x="-0.1573" y="-1" as="geometry">
+            <mxPoint x="94" as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
