@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="v4d0oD99BJNh_s1QToVL">
-    <mxGraphModel dx="1222" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1391" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -95,7 +95,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-22" connectable="0" parent="BZSGkBbcOcEUag34DBB_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 对同一个用户同一个接口一分钟调用超过n次的" vertex="1">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-22" connectable="0" parent="BZSGkBbcOcEUag34DBB_-21" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="5 对同一个用户调同一个接口一分钟调用超过n次的" vertex="1">
           <mxGeometry relative="1" x="-0.0842" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -103,28 +103,11 @@
         <mxCell id="BZSGkBbcOcEUag34DBB_-26" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;md文件内容&lt;/h1&gt;&lt;p&gt;1 接口&lt;br&gt;2 越权访问的枚举id字段&lt;br&gt;3 链式访问的&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;枚举id字段&lt;/span&gt;&lt;/p&gt;" vertex="1">
           <mxGeometry height="120" width="220" x="890" y="460" as="geometry" />
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-27" parent="1" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" value="Databend" vertex="1">
-          <mxGeometry height="80" width="120" x="1130" y="450" as="geometry" />
-        </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-30" edge="1" parent="1" source="SJECwPXb0EPlWWx2axZS-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="BZSGkBbcOcEUag34DBB_-27">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="670" y="255" />
-              <mxPoint x="670" y="330" />
-              <mxPoint x="1190" y="330" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-31" connectable="0" parent="BZSGkBbcOcEUag34DBB_-30" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="7 查询databend的user event log&lt;div&gt;判断参数是否符合越权访问和链式身份泄露&lt;/div&gt;" vertex="1">
-          <mxGeometry relative="1" x="-0.1573" y="-1" as="geometry">
-            <mxPoint x="94" as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;判定规则&lt;/h1&gt;&lt;p&gt;1 IDOR Skill = 找&quot;没有守门人的入口&quot;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;链式泄露 2 Skill = 找&quot;出口比入口值钱的接口&quot;&lt;br&gt;3 同一个用户，接口都被高频调用&lt;/span&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="130" width="250" x="1270" y="65" as="geometry" />
+        <mxCell id="BZSGkBbcOcEUag34DBB_-32" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;判定规则&lt;/h1&gt;&lt;p&gt;1 IDOR Skill = 找&quot;没有守门人的入口&quot;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&amp;nbsp;&lt;br&gt;2&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;链式泄露&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;Skill = 找&quot;出口比入口值钱的接口&quot;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3 同一个用户，接口都被高频调用&lt;/span&gt;&lt;/p&gt;" vertex="1">
+          <mxGeometry height="130" width="250" x="1220" y="40" as="geometry" />
         </mxCell>
         <mxCell id="BZSGkBbcOcEUag34DBB_-33" parent="1" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;strokeColor=default;" value="&lt;h1 style=&quot;margin-top: 0px;&quot;&gt;我们适合做的和不适合做的&lt;/h1&gt;&lt;p&gt;&lt;b&gt;适合做的&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;&lt;b&gt;1&amp;nbsp;&lt;/b&gt;实时监控和报警风险接口&lt;br&gt;&lt;br&gt;&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;b&gt;不适合做的&lt;br&gt;&lt;/b&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;1 直接修改优化业务代码&lt;br&gt;2 用测试框架去验证&lt;/span&gt;&lt;/p&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" vertex="1">
-          <mxGeometry height="175" width="310" x="1270" y="255" as="geometry" />
+          <mxGeometry height="175" width="310" x="1220" y="210" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
