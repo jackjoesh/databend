@@ -74,7 +74,7 @@
             <mxPoint x="370" y="705" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="BZSGkBbcOcEUag34DBB_-41" connectable="0" parent="BZSGkBbcOcEUag34DBB_-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="定时扫描mgs/sapi的 swagger数据&lt;div&gt;解析为接口/参数知识库&lt;/div&gt;" vertex="1">
+        <mxCell id="BZSGkBbcOcEUag34DBB_-41" connectable="0" parent="BZSGkBbcOcEUag34DBB_-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=15;" value="定时扫描mgs/sapi的 swagger api数据&lt;div&gt;解析为接口+参数知识库&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.0139" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
