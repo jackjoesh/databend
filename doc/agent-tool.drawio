@@ -1,9 +1,20 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="SjWv9siGEQ1Xg4HLWJG1">
-    <mxGraphModel dx="1391" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1225" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9f-pUrffFf56pktWLO4p-34" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-35" connectable="0" parent="9f-pUrffFf56pktWLO4p-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="agent 调用tool&lt;div&gt;带上skil content hash&lt;/div&gt;" vertex="1">
+          <mxGeometry relative="1" x="-0.3304" y="2" as="geometry">
+            <mxPoint x="43" y="2" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="480" width="220" x="140" y="770" as="geometry" />
+        </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="codemax/lumina" vertex="1">
           <mxGeometry height="60" width="140" x="410" y="250" as="geometry" />
         </mxCell>
@@ -57,6 +68,65 @@
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="apollo qa" vertex="1">
           <mxGeometry height="40" width="110" x="1070" y="420" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="codemax/lumina" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="860" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="clawbot" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="微服务" vertex="1">
+          <mxGeometry height="60" width="140" x="180" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-37" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="比较请求skill content hash和数据库里的skill content hash是否相同" vertex="1">
+          <mxGeometry relative="1" x="0.175" y="-3" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-42" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-43" connectable="0" parent="9f-pUrffFf56pktWLO4p-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="mcp tool调用" vertex="1">
+          <mxGeometry relative="1" x="-0.1417" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="mcp代理" vertex="1">
+          <mxGeometry height="60" width="140" x="590" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="mcp服务" vertex="1">
+          <mxGeometry height="60" width="140" x="970" y="980" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-29" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-30" connectable="0" parent="9f-pUrffFf56pktWLO4p-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="hook请求，保存skill元信息，并且计算skill cotent hash值保存" vertex="1">
+          <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-27" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="AI skill github" vertex="1">
+          <mxGeometry height="60" width="140" x="590" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-28" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="bndevtools-server" vertex="1">
+          <mxGeometry height="60" width="140" x="590" y="760" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-40" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="750" y="1010" />
+              <mxPoint x="750" y="1100" />
+              <mxPoint x="660" y="1100" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-41" connectable="0" parent="9f-pUrffFf56pktWLO4p-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="skill id + tool id限流" vertex="1">
+          <mxGeometry relative="1" x="0.1923" y="4" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
