@@ -123,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-41" connectable="0" parent="9f-pUrffFf56pktWLO4p-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="skill id + tool id限流" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-41" connectable="0" parent="9f-pUrffFf56pktWLO4p-40" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="agent id + skill id + tool id限流" vertex="1">
           <mxGeometry relative="1" x="0.1923" y="4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
