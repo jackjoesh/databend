@@ -87,7 +87,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-37" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2 比较请求skill content hash和数据库里的skill content hash是否相同" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2 比较请求skill content hash和数据库里的skill content hash是否相同&lt;div&gt;如果相同表示是使用审核过的skill，可以放行，否则拒绝&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.175" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
