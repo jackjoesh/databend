@@ -87,7 +87,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-37" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2 比较请求skill content hash和数据库里的skill content hash是否相同&lt;div&gt;如果相同表示是使用审核过的skill，可以放行，否则拒绝&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2&amp;nbsp; &amp;nbsp;比较请求skill content hash和数据库里的skill content hash是否相同&lt;div&gt;如果相同表示是使用审核过的skill，可以放行，否则拒绝。&lt;/div&gt;&lt;div&gt;基于&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;allowed_tools判断是否在tools调用范围内，不在也是拒绝&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.175" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -109,7 +109,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-29" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-30" connectable="0" parent="9f-pUrffFf56pktWLO4p-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="hook请求，保存skill元信息，并且计算skill cotent hash值保存" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-30" connectable="0" parent="9f-pUrffFf56pktWLO4p-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="hook请求，保存skill元信息，计算skill cotent hash值保存，设置allowed_tools" vertex="1">
           <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
