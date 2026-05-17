@@ -95,7 +95,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-42" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-43" connectable="0" parent="9f-pUrffFf56pktWLO4p-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="4 mcp tool调用" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-43" connectable="0" parent="9f-pUrffFf56pktWLO4p-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="4 sse/stdio/http调用" vertex="1">
           <mxGeometry relative="1" x="-0.1417" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -104,7 +104,7 @@
           <mxGeometry height="60" width="140" x="590" y="1199" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="mcp服务" vertex="1">
-          <mxGeometry height="60" width="140" x="970" y="1199" as="geometry" />
+          <mxGeometry height="60" width="140" x="1045" y="1199" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-29" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
@@ -134,7 +134,7 @@
             <mxPoint x="-45" y="26" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" value="前置关键操作&lt;br&gt;1 tool的http端口全部阻断，全部改成mcp方式，包括现在的存量skill，便于传递content hash&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" value="前置关键操作&lt;br&gt;1 tool的http端口全部阻断，skill访问全部改成mcp方式，包括现在的存量skill，便于统一接入mcp网关传递content hash&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="180" x="950" y="749" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="优化系统提示词，请求tool的时候带上skill content hash" vertex="1">
