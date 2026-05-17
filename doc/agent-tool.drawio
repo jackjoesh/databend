@@ -103,7 +103,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" value="mcp网关" vertex="1">
           <mxGeometry height="60" width="140" x="590" y="1199" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="mcp服务" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-26" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="tools" vertex="1">
           <mxGeometry height="60" width="140" x="1045" y="1199" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-29" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
