@@ -145,13 +145,13 @@
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-27" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
-            <mxPoint x="660" y="699" as="sourcePoint" />
+            <mxPoint x="660" y="710" as="sourcePoint" />
             <mxPoint x="620" y="779" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-50" connectable="0" parent="9f-pUrffFf56pktWLO4p-49" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="提交skill，pr审核(可自动化)" vertex="1">
           <mxGeometry relative="1" x="-0.1923" as="geometry">
-            <mxPoint as="offset" />
+            <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
