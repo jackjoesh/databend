@@ -7,7 +7,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-34" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-35" connectable="0" parent="9f-pUrffFf56pktWLO4p-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="agent 调用tool&lt;div&gt;带上skil content hash&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-35" connectable="0" parent="9f-pUrffFf56pktWLO4p-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="1 agent 调用tool&lt;div&gt;带上skil content hash&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.3304" y="2" as="geometry">
             <mxPoint x="43" y="2" as="offset" />
           </mxGeometry>
@@ -81,7 +81,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-37" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="比较请求skill content hash和数据库里的skill content hash是否相同" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="2 比较请求skill content hash和数据库里的skill content hash是否相同" vertex="1">
           <mxGeometry relative="1" x="0.175" y="-3" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -89,7 +89,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-42" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-43" connectable="0" parent="9f-pUrffFf56pktWLO4p-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="mcp tool调用" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-43" connectable="0" parent="9f-pUrffFf56pktWLO4p-42" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" value="4 mcp tool调用" vertex="1">
           <mxGeometry relative="1" x="-0.1417" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -123,7 +123,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-41" connectable="0" parent="9f-pUrffFf56pktWLO4p-40" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;user+agent id&amp;nbsp;+ tool限流&lt;div&gt;user+agent id限流&lt;/div&gt;&lt;div&gt;tool限流&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-41" connectable="0" parent="9f-pUrffFf56pktWLO4p-40" style="edgeLabel;html=1;align=left;verticalAlign=middle;resizable=0;points=[];" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;3&lt;br&gt;user+agent id&amp;nbsp;+ tool限流&lt;div&gt;user+agent id限流&lt;/div&gt;&lt;div&gt;tool限流&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.1923" y="4" as="geometry">
             <mxPoint x="-45" y="26" as="offset" />
           </mxGeometry>
