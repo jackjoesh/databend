@@ -154,6 +154,9 @@
             <mxPoint y="8" as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-51" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" value="开源方案&lt;br&gt;&lt;div&gt;1 fastmcp&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/PrefectHQ/fastmcp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 mcp proxy&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/sparfenyuk/mcp-proxy&lt;/div&gt;" vertex="1">
+          <mxGeometry height="260" width="260" x="530" y="1440" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
