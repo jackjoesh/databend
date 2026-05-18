@@ -10,13 +10,13 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-34" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-35" connectable="0" parent="9f-pUrffFf56pktWLO4p-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1 http/mcp调用tool&lt;div&gt;带上skil content hash, tool token&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-35" connectable="0" parent="9f-pUrffFf56pktWLO4p-34" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="1 http/mcp调用tool&lt;div&gt;sdk带上prompt content hash,&lt;/div&gt;&lt;div&gt;tool token&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="-0.3304" y="2" as="geometry">
-            <mxPoint x="43" y="2" as="offset" />
+            <mxPoint x="23" y="2" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-31" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="380" width="220" x="110" y="1224.5" as="geometry" />
+          <mxGeometry height="380" width="220" x="90" y="1224.5" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-46" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-4">
           <mxGeometry relative="1" as="geometry" />
@@ -79,13 +79,13 @@
           <mxGeometry height="40" width="110" x="1070" y="420" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="codemax/lumina" vertex="1">
-          <mxGeometry height="60" width="140" x="140" y="1264.5" as="geometry" />
+          <mxGeometry height="60" width="140" x="120" y="1264.5" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-23" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="clawbot" vertex="1">
-          <mxGeometry height="60" width="140" x="140" y="1380" as="geometry" />
+          <mxGeometry height="60" width="140" x="120" y="1380" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-24" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="微服务" vertex="1">
-          <mxGeometry height="60" width="140" x="140" y="1481" as="geometry" />
+          <mxGeometry height="60" width="140" x="120" y="1481" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-25" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=15;" value="" vertex="1">
           <mxGeometry height="431" width="270" x="630" y="1199" as="geometry" />
@@ -96,7 +96,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-29" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-30" connectable="0" parent="9f-pUrffFf56pktWLO4p-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="hook请求，保存skill元信息，计算skill cotent hash值保存，设置allowed_tools" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-30" connectable="0" parent="9f-pUrffFf56pktWLO4p-29" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="hook请求，保存skill元信息，计算prompt cotent hash值保存，设置allowed_tools" vertex="1">
           <mxGeometry relative="1" x="-0.2" y="-1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -110,8 +110,8 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" value="&lt;b&gt;前置关键操作&lt;br&gt;&lt;/b&gt;1 tool的http api访问全部阻断，skill访问全部改成mcp方式，包括现在的存量skill，便于统一接入mcp网关传递content hash&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="180" x="930" y="1860" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="cli集成 AI proxy sdk，请求tool的时候header带上skill content hash" vertex="1">
-          <mxGeometry height="152" width="70" x="300" y="1338.5" as="geometry" />
+        <mxCell id="9f-pUrffFf56pktWLO4p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="cli集成AI Tool proxy&amp;nbsp;sdk" vertex="1">
+          <mxGeometry height="151.5" width="60" x="280" y="1338.5" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-48" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=13;" value="&lt;b&gt;核心目标&lt;br&gt;&lt;/b&gt;1 避免高风险不合规skill访问tool&lt;div&gt;2 对访问tool限流，保护tool&lt;/div&gt;&lt;div&gt;3 审计追溯&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="180" width="180" x="180" y="1890" as="geometry" />
@@ -122,13 +122,13 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="byc网络" vertex="1">
           <mxGeometry height="30" width="60" x="530" y="1169" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="MCP gateway" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AI Tool proxy" vertex="1">
           <mxGeometry height="30" width="95" x="630" y="1199" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-62" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="skill一致性校验插件" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-56" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=15;" value="prompt一致性校验插件" vertex="1">
           <mxGeometry height="40" width="145" x="690" y="1224.5" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-63" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-57" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-58">
@@ -175,7 +175,7 @@
         <mxCell id="9f-pUrffFf56pktWLO4p-37" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-56" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" target="9f-pUrffFf56pktWLO4p-28">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2&amp;nbsp; &amp;nbsp;比较请求skill content hash和数据库里的skill content hash是否相同&lt;div&gt;如果相同表示是使用审核过的skill，可以放行，否则拒绝。&lt;/div&gt;&lt;div&gt;基于&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;allowed_tools判断是否在tools调用范围内，不在也是拒绝&lt;/span&gt;&lt;/div&gt;" vertex="1">
+        <mxCell id="9f-pUrffFf56pktWLO4p-38" connectable="0" parent="9f-pUrffFf56pktWLO4p-37" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=12;" value="2&amp;nbsp; &amp;nbsp;比较请求prompt content hash和数据库里的prompt content hash是否相同&lt;div&gt;如果相同表示是使用审核过的prompt，可以放行，否则拒绝。&lt;/div&gt;&lt;div&gt;基于&lt;span style=&quot;background-color: light-dark(#ffffff, var(--ge-dark-color, #121212)); color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;allowed_tools判断是否在tools调用范围内，不在也是拒绝&lt;/span&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry relative="1" x="0.175" y="-3" as="geometry">
             <mxPoint x="-3" y="-17" as="offset" />
           </mxGeometry>
