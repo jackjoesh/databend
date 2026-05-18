@@ -4,6 +4,9 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="9f-pUrffFf56pktWLO4p-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
+          <mxGeometry height="280" width="680" x="530" y="1150" as="geometry" />
+        </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-34" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -135,13 +138,13 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-44" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;" value="&lt;b&gt;前置关键操作&lt;br&gt;&lt;/b&gt;1 tool的http api访问全部阻断，skill访问全部改成mcp方式，包括现在的存量skill，便于统一接入mcp网关传递content hash&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="180" x="950" y="749" as="geometry" />
+          <mxGeometry height="180" width="180" x="930" y="1540" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-45" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="优化系统提示词，请求tool的时候带上skill content hash" vertex="1">
           <mxGeometry height="180" width="50" x="330" y="1163.5" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-48" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;align=left;fontSize=13;" value="&lt;b&gt;核心目标&lt;br&gt;&lt;/b&gt;1 避免高风险不合规skill访问tool&lt;div&gt;2 对访问tool限流，保护tool&lt;/div&gt;&lt;div&gt;3 审计追溯&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="180" width="180" x="150" y="759" as="geometry" />
+          <mxGeometry height="180" width="180" x="180" y="1570" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-49" edge="1" parent="1" style="endArrow=classic;html=1;rounded=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-27" value="">
           <mxGeometry height="50" relative="1" width="50" as="geometry">
@@ -155,7 +158,10 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-51" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;align=left;" value="开源方案&lt;br&gt;&lt;div&gt;1 fastmcp&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/PrefectHQ/fastmcp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 mcp proxy&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/sparfenyuk/mcp-proxy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;第一步落地计划&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;先解决访问keter, eureka, apollo问题&lt;/b&gt;&lt;/div&gt;" vertex="1">
-          <mxGeometry height="260" width="260" x="530" y="1440" as="geometry" />
+          <mxGeometry height="260" width="260" x="530" y="1550" as="geometry" />
+        </mxCell>
+        <mxCell id="9f-pUrffFf56pktWLO4p-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="byc网络" vertex="1">
+          <mxGeometry height="30" width="60" x="530" y="1150" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
