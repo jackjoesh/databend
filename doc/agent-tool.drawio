@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net">
   <diagram name="第 1 页" id="SjWv9siGEQ1Xg4HLWJG1">
-    <mxGraphModel dx="1279" dy="764" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
+    <mxGraphModel dx="1705" dy="1019" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="3300" pageHeight="2339" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -190,6 +190,63 @@
           <mxGeometry relative="1" x="-0.5398" y="-2" as="geometry">
             <mxPoint x="2" y="17" as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="600" width="900" x="1690" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="" vertex="1">
+          <mxGeometry height="440" width="270" x="1890" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-3" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="AI Tool proxy" vertex="1">
+          <mxGeometry height="30" width="95" x="1890" y="1060" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-10" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="基于token/tool限流" vertex="1">
+          <mxGeometry height="40" width="145" x="1972.5" y="1141.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-11" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-13" connectable="0" parent="JjQPJm0UQE1IEhfY2ny3-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="2 拓传token和参数" vertex="1">
+          <mxGeometry relative="1" x="-0.3333" y="1" as="geometry">
+            <mxPoint x="35" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="路由地址映射" vertex="1">
+          <mxGeometry height="40" width="145" x="1972.5" y="1276" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-7" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="byc网络" vertex="1">
+          <mxGeometry height="30" width="60" x="1700" y="970" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-15" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="tools" vertex="1">
+          <mxGeometry height="60" width="140" x="2410" y="1266" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-9" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-12" connectable="0" parent="JjQPJm0UQE1IEhfY2ny3-9" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="1 请求AI Tool proxy" vertex="1">
+          <mxGeometry relative="1" x="-0.4976" y="3" as="geometry">
+            <mxPoint y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-1" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="codemax/lumina" vertex="1">
+          <mxGeometry height="60" width="130" x="1340" y="1131.5" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-16" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-17" connectable="0" parent="JjQPJm0UQE1IEhfY2ny3-16" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="3 返回结果" vertex="1">
+          <mxGeometry relative="1" x="0.0791" y="-5" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="支持普通http/流式返回" vertex="1">
+          <mxGeometry height="75.75" width="145" x="1972.5" y="1384.5" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
