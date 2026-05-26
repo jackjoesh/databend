@@ -203,7 +203,7 @@
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-19" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="JjQPJm0UQE1IEhfY2ny3-18">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjQPJm0UQE1IEhfY2ny3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="基于token/tool限流" vertex="1">
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="基于token/tool级别限流" vertex="1">
           <mxGeometry height="40" width="145" x="1935.83" y="1141" as="geometry" />
         </mxCell>
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-11" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-8">
