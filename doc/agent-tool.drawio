@@ -209,9 +209,9 @@
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-11" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontSize=14;" target="JjQPJm0UQE1IEhfY2ny3-8">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="JjQPJm0UQE1IEhfY2ny3-13" connectable="0" parent="JjQPJm0UQE1IEhfY2ny3-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="2 拓传token和参数" vertex="1">
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-13" connectable="0" parent="JjQPJm0UQE1IEhfY2ny3-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=14;" value="2 拓传token和参数(mcp/http)" vertex="1">
           <mxGeometry relative="1" x="-0.3333" y="1" as="geometry">
-            <mxPoint x="35" y="1" as="offset" />
+            <mxPoint x="59" y="1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="路由地址映射" vertex="1">
