@@ -4,9 +4,6 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9f-pUrffFf56pktWLO4p-52" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="" vertex="1">
-          <mxGeometry height="480" width="690" x="530" y="1170" as="geometry" />
-        </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-34" edge="1" parent="1" source="9f-pUrffFf56pktWLO4p-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="9f-pUrffFf56pktWLO4p-25">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
@@ -118,9 +115,6 @@
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-51" parent="1" style="whiteSpace=wrap;html=1;aspect=fixed;fontSize=13;align=left;" value="开源方案&lt;br&gt;&lt;div&gt;1 fastmcp&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/PrefectHQ/fastmcp&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;2 mcp proxy&amp;nbsp;&lt;/div&gt;&lt;div&gt;https://github.com/sparfenyuk/mcp-proxy&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;第一步落地计划&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;&quot;&gt;&lt;b&gt;先解决访问keter, eureka, apollo问题&lt;/b&gt;&lt;/div&gt;" vertex="1">
           <mxGeometry height="260" width="260" x="530" y="1870" as="geometry" />
-        </mxCell>
-        <mxCell id="9f-pUrffFf56pktWLO4p-53" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=13;" value="byc网络" vertex="1">
-          <mxGeometry height="30" width="60" x="530" y="1169" as="geometry" />
         </mxCell>
         <mxCell id="9f-pUrffFf56pktWLO4p-55" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="AI Tool proxy" vertex="1">
           <mxGeometry height="30" width="95" x="630" y="1199" as="geometry" />
