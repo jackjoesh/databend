@@ -246,7 +246,7 @@
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="可观测" vertex="1">
           <mxGeometry height="40" width="145" x="2045.83" y="1224" as="geometry" />
         </mxCell>
-        <mxCell id="JjQPJm0UQE1IEhfY2ny3-23" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="JjQPJm0UQE1IEhfY2ny3-22">
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-23" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="JjQPJm0UQE1IEhfY2ny3-22">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-21" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=14;" value="&lt;div&gt;clawbot&lt;/div&gt;" vertex="1">
@@ -255,7 +255,7 @@
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-22" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=14;" value="" vertex="1">
           <mxGeometry height="170" width="100" x="1500" y="966.25" as="geometry" />
         </mxCell>
-        <mxCell id="JjQPJm0UQE1IEhfY2ny3-29" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="JjQPJm0UQE1IEhfY2ny3-26">
+        <mxCell id="JjQPJm0UQE1IEhfY2ny3-29" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="JjQPJm0UQE1IEhfY2ny3-26">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-24" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;fontSize=14;" value="byc网关" vertex="1">
