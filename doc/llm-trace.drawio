@@ -7,6 +7,11 @@
         <mxCell id="rj02RR58zz3c5xyeMACZ-11" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="rj02RR58zz3c5xyeMACZ-4">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="rj02RR58zz3c5xyeMACZ-13" connectable="0" parent="rj02RR58zz3c5xyeMACZ-11" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="3 把trace数据和评估指标传给llm评测分数" vertex="1">
+          <mxGeometry relative="1" x="-0.1103" y="2" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="JjQPJm0UQE1IEhfY2ny3-8" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" value="Lumina skill eval agent" vertex="1">
           <mxGeometry height="80" width="330" x="1455" y="1500" as="geometry" />
         </mxCell>
@@ -27,8 +32,8 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rj02RR58zz3c5xyeMACZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" value="评测llm" vertex="1">
-          <mxGeometry height="75" width="200" x="1520" y="1710" as="geometry" />
+        <mxCell id="rj02RR58zz3c5xyeMACZ-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" value="用于评测的llm" vertex="1">
+          <mxGeometry height="80" width="200" x="1520" y="1710" as="geometry" />
         </mxCell>
         <mxCell id="rj02RR58zz3c5xyeMACZ-6" edge="1" parent="1" source="JjQPJm0UQE1IEhfY2ny3-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" target="rj02RR58zz3c5xyeMACZ-1">
           <mxGeometry relative="1" as="geometry" />
@@ -49,7 +54,7 @@
             <mxPoint x="20" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="rj02RR58zz3c5xyeMACZ-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Actor" vertex="1">
+        <mxCell id="rj02RR58zz3c5xyeMACZ-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;fontSize=19;" value="Actor" vertex="1">
           <mxGeometry height="60" width="30" x="990" y="1510" as="geometry" />
         </mxCell>
       </root>
