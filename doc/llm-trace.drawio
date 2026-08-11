@@ -86,7 +86,7 @@
         <mxCell id="fWiMDzghbeKBcRiWL77X-4" edge="1" parent="1" source="fWiMDzghbeKBcRiWL77X-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;" target="fWiMDzghbeKBcRiWL77X-2">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fWiMDzghbeKBcRiWL77X-5" connectable="0" parent="fWiMDzghbeKBcRiWL77X-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="存取数据" vertex="1">
+        <mxCell id="fWiMDzghbeKBcRiWL77X-5" connectable="0" parent="fWiMDzghbeKBcRiWL77X-4" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="存取trace数据" vertex="1">
           <mxGeometry relative="1" x="-0.15" y="4" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
