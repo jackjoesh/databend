@@ -94,8 +94,13 @@
         <mxCell id="fWiMDzghbeKBcRiWL77X-7" edge="1" parent="1" source="fWiMDzghbeKBcRiWL77X-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="fWiMDzghbeKBcRiWL77X-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="fWiMDzghbeKBcRiWL77X-8" connectable="0" parent="fWiMDzghbeKBcRiWL77X-7" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=20;" value="查询summary和trace明细" vertex="1">
+          <mxGeometry relative="1" x="-0.2604" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="fWiMDzghbeKBcRiWL77X-6" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#b1ddf0;strokeColor=#10739e;fontSize=20;" value="业务系统查询" vertex="1">
-          <mxGeometry height="80" width="200" x="1550" y="280" as="geometry" />
+          <mxGeometry height="80" width="200" x="1550" y="260" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
